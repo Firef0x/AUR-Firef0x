@@ -9,14 +9,19 @@
   *  `yaourt -S burg-bios-bzr`
   *  [Official Page][8]
   *  Version: 1845.6
-*  [Firefox-private][1](Deleted)
-  *  `EMPTY`
+*  [Firefox-private][1]
+  *  `yaourt -S firefox-private`
   *  [Official Page][5]
-  *  Version: 26.0.1
+  *  [Discussion Thread (Chinese)][12]
+  *  Version: 30.0
 *  [Sublime Text Dev with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
   *  Version: 3 Build 3059
+*  [Eclipse][10]
+  *  `yaourt -S eclipse3.8`
+  *  [Official Page][11]
+  *  Version: 3.8.2
 *  [MyEclipse Professional][3]
   *  `yaourt -S myeclipse-pro`
   *  [Official Page][7]
@@ -26,7 +31,7 @@
   *  [Official Page][7]
   *  Version: 2013 SR2
 
-[1]: http://bbs.kafan.cn/thread-1611465-1-1.html
+[1]: https://aur.archlinux.org/packages/firefox-private/
 [2]: https://aur.archlinux.org/packages/sublime-text-dev-imfix/
 [3]: https://aur.archlinux.org/packages/myeclipse-pro/
 [4]: https://aur.archlinux.org/packages/myeclipse-spring/
@@ -35,3 +40,6 @@
 [7]: http://www.myeclipseide.com/
 [8]: https://code.google.com/p/burg/
 [9]: https://aur.archlinux.org/packages/burg-bios-bzr/
+[10]: https://aur.archlinux.org/packages/eclipse3.8/
+[11]: http://www.eclipse.org/
+[12]: http://bbs.kafan.cn/thread-1611465-1-1.html
