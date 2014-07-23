@@ -13,7 +13,7 @@
   *  `yaourt -S firefox-private`
   *  [Official Page][5]
   *  [Discussion Thread (Chinese)][12]
-  *  Version: 30.0
+  *  Version: 31.0 ESR
 *  [Sublime Text Dev with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
