@@ -5,18 +5,30 @@
 
 # Includes
 
+*  [BCloud][13]
+  *  `yaourt -S bcloud`
+  *  [Official Page][14]
+  *  Description: Baidu Pan client for Linux Desktop users
+  *  描述: 百度网盘的 Linux 桌面客户端
+  *  Version: 3.4.2
 *  [Brand-new Universal loadeR from Grub][9]
   *  `yaourt -S burg-bios-bzr`
   *  [Official Page][8]
+  *  Description: A graphical bootloader like GRUB2
+  *  描述: 一个图形化的类似 GRUB2 的多操作系统启动程序
   *  Version: 1845.6
 *  [Firefox-private][1]
   *  `yaourt -S firefox-private`
   *  [Official Page][5]
   *  [Discussion Thread (Chinese)][12]
+  *  Description: A free and open-source popular web browser
+  *  描述: 一个自由、开源、流行的网络浏览器
   *  Version: 31.0 ESR
 *  [Sublime Text Dev with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
+  *  Description: A cross-platform popular text and source code editor
+  *  描述: 一个跨平台流行的文本与源代码编辑器
   *  Version: 3 Build 3059
 *  [Eclipse][10]
   *  `yaourt -S eclipse3.8`
@@ -43,3 +55,5 @@
 [10]: https://aur.archlinux.org/packages/eclipse3.8/
 [11]: http://www.eclipse.org/
 [12]: http://bbs.kafan.cn/thread-1611465-1-1.html
+[13]: https://aur.archlinux.org/packages/bcloud/
+[14]: https://github.com/LiuLang/bcloud

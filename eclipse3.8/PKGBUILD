@@ -1,6 +1,6 @@
-# Maintainer: Firefgx <firefgx at gmail dot com>
-# Contributor: Firefgx <firefgx at gmail dot com>
-# Contributor: alex-no1 <sanja dot msg at gmx dot de>
+# Maintainer  : Firefgx <firefgx at gmail dot com>
+# Contributor : Firefgx <firefgx at gmail dot com>
+# Contributor : alex-no1 <sanja dot msg at gmx dot de>
 
 pkgname=eclipse3.8
 _realname=eclipse
