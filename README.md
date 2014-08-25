@@ -17,14 +17,20 @@
   *  Description: A graphical bootloader like GRUB2
   *  描述: 一个图形化的类似 GRUB2 的多操作系统启动程序
   *  Version: 1845.6
-*  [Firefox-private][1]
+*  [Eclipse Bracketeer][15]
+  *  `yaourt -S eclipse-bracketeer`
+  *  [Official Page][16]
+  *  Description: A platform used to enrich the editors in Eclipse by coloring the brackets and showing automatic comments on brackets closing
+  *  描述: 在 Eclipse 中增强编辑器的功能，主要有彩色化括号及在括号闭合处显示自动注释
+  *  Version: 1.2.0
+*  [Firefox Private][1]
   *  `yaourt -S firefox-private`
   *  [Official Page][5]
   *  [Discussion Thread (Chinese)][12]
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
   *  Version: 31.0 ESR
-*  [Sublime Text Dev with Input Method Fix][2]
+*  [Sublime Text Dev Build with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
   *  Description: A cross-platform popular text and source code editor
@@ -57,3 +63,5 @@
 [12]: http://bbs.kafan.cn/thread-1611465-1-1.html
 [13]: https://aur.archlinux.org/packages/bcloud/
 [14]: https://github.com/LiuLang/bcloud
+[15]: https://aur.archlinux.org/packages/eclipse-bracketeer/
+[16]: https://github.com/chookapp/Bracketeer
