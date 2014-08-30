@@ -30,12 +30,12 @@
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
   *  Version: 31.0 ESR
-*  [Sublime Text Dev Build with Input Method Fix][2]
+*  [Sublime Text Dev version with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
-  *  Description: A cross-platform popular text and source code editor
-  *  描述: 一个跨平台流行的文本与源代码编辑器
-  *  Version: 3 Build 3059
+  *  Description: A cross-platform popular text, HTML and source code editor
+  *  描述: 一个跨平台流行的文本、HTML与源代码编辑器
+  *  Version: 3 Build 3065
 *  [Eclipse][10]
   *  `yaourt -S eclipse3.8`
   *  [Official Page][11]

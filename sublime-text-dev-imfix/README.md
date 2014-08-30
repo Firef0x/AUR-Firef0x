@@ -1,4 +1,26 @@
-Build 3059
+Sublime Text 3 is currently in beta. The latest build is 3065.
+----------
+
+#### Build 3065
+----------
+Release Date: 29 August 2014
+
+    * Added sidebar icons
+    * Added sidebar loading indicators
+    * Sidebar remembers which folders are expanded
+    * Tweaked window closing behavior when pressing ctrl+w / cmd+w
+    * Improved quote auto pairing logic
+    * Selected group is now stored in the session
+    * Added remember_full_screen setting
+    * Fixed a lockup when transitioning from a blinking to a solid caret
+    * Fixed a crash in plugin_host
+    * Fixed a crash triggered by Goto Anything cloning views
+    * Windows: Added command line helper, subl.exe
+    * OSX: Added 'New Window' entry to dock menu
+    * Posix: Using correct permissions for newly created files and folders
+    * API: Updated to Python 3.3.3
+
+#### Build 3059
 ----------
 Release Date: 17 December 2013
 
@@ -27,7 +49,7 @@ Release Date: 17 December 2013
     * API: Plugins may now call Settings.clear_on_change() within a callback from Settings.add_on_change()
     * API: Calling Settings.add_on_change() from within a settings change callback won't cause the added callback to be run
 
-Build 3047
+#### Build 3047
 ----------
 Release Date: 27 June 2013
 
@@ -44,40 +66,5 @@ Release Date: 27 June 2013
     * API: Added support for the termios module on Linux and OS X
     * API: Fixed Selection.contains
     * API: Fixed settings objects getting invalidated too early with cloned views
-
-Build 3033
-----------
-Release Date: 7 May 2013
-
-    * New auto update system for Windows and OS X
-    * Previewing a file from the side bar will no longer add an entry to the OPEN FILES section of the side bar
-    * Added Paste from History
-    * Added setting 'auto_find_in_selection', for S2 style Find in Selection logic
-    * Find panel has a drop down arrow to select previous items
-    * Pressing right in the Goto Anything overlay will open the selected file without closing the overlay
-    * Fixed several crash bugs
-    * Further startup time improvements
-    * Improved HTML completions when typing outside of tags
-    * Fixed Close Tag not respecting self closing tags
-    * PHP: Improved auto indenting for the alternative control syntax
-    * Added setting always_prompt_for_file_reload
-    * Improved handling of deleted files when restoring sessions
-    * Deleting a file via the side bar will first close the corresponding view, if any
-    * "Remove all Folders from Project" now prompts to confirm
-    * Added telemetry. Telemetry is disabled by default, but can be turned on with the enable_telemetry setting
-    * Using Google Breakpad to automatically report crashes
-    * Updated syntax highlighting for PHP, Haskell and Pascal
-    * Symlinks are followed by default in folders added to the side bar
-    * Windows: Fixed erroneous entries in system menu
-    * Windows: New style Open Folder dialogs are used on Vista and later
-    * API: Significantly improved communication speed with plugin_host
-    * API: Added view.close()
-    * API: Added view.show_popup_menu()
-    * API: Added is_valid() method to view and window, to determine if the handle has been invalidated
-    * API: Added on_post_text_command and on_post_window_command
-    * API: on_text_command and on_window command are now called when the menu is used
-    * API: Added sublime.get_macro()
-    * API: view.substr(point) now has the same semantics as S2 for out of bounds addresses
-    * API: view.command_history(0, True) now returns the last modifying command, as expected
 
 For more changelog, please visit http://www.sublimetext.com/3
