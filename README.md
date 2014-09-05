@@ -10,7 +10,7 @@
   *  [Official Page][14]
   *  Description: Baidu Pan client for Linux Desktop users
   *  描述: 百度网盘的 Linux 桌面客户端
-  *  Version: 3.4.2
+  *  Version: 3.5.1
 *  [Brand-new Universal loadeR from Grub][9]
   *  `yaourt -S burg-bios-bzr`
   *  [Official Page][8]
@@ -29,7 +29,7 @@
   *  [Discussion Thread (Chinese)][12]
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
-  *  Version: 31.0 ESR
+  *  Version: 32.0
 *  [Sublime Text Dev version with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
