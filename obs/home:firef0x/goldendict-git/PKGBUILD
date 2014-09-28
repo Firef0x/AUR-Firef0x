@@ -1,0 +1,34 @@
+# Contributor: Eugene Yudin aka Infy <Eugene dot Yudin at gmail dot com>
+# Maintainer:  VirtualTam <virtualtam[at]myopera[dot]com>
+pkgname=goldendict-git
+_pkgname=goldendict
+pkgver=1.5.0.RC.428
+pkgrel=1
+pkgdesc="Feature-rich dictionary lookup program."
+arch=('i686' 'x86_64')
+url="http://goldendict.org/"
+license=('GPL3')
+depends=('ffmpeg' 'hunspell' 'libao' 'libeb' 'libvorbis' 'libxtst' 'lzo' 'qt4' 'qtwebkit' 'zlib')
+conflicts=('goldendict' 'goldendict-svn' 'goldendict-git-opt')
+provides=('goldendict')
+replaces=('goldendict' 'goldendict-svn' 'goldendict-git-opt')
+source=("${_pkgname}-${pkgver}.tar.gz")
+sha256sums=(SKIP)
+
+prepare() {
+  cd ${srcdir}/${_pkgname}-${pkgver}
+  msg "Fixing flags"
+  echo "QMAKE_CXXFLAGS_RELEASE = $CFLAGS" >> goldendict.pro
+  echo "QMAKE_CFLAGS_RELEASE = $CXXFLAGS" >> goldendict.pro
+}
+
+build(){
+  cd ${srcdir}/${_pkgname}-${pkgver}
+  PREFIX="/usr" qmake-qt4
+  make
+}
+
+package() {
+  cd ${srcdir}/${_pkgname}-${pkgver}
+  make INSTALL_ROOT="${pkgdir}" install
+}

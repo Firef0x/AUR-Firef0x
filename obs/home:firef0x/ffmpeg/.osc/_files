@@ -1,0 +1,5 @@
+<directory name="ffmpeg" rev="1" srcmd5="a587b6bcf0dc8829f9f6c7b9c53c3fa4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="455cbe5af6f34703c46db55dd03d898c" />
+  <entry md5="87eb00b83d144d2269dc9360c9e9d560" mtime="1411416795" name="PKGBUILD" size="2016" />
+  <entry md5="ee6e81af58a9dbe1b966dc7a3d77fcbe" mtime="1411416796" name="_service" size="212" />
+</directory>

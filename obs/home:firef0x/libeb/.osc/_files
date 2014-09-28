@@ -1,0 +1,5 @@
+<directory name="libeb" rev="2" srcmd5="e27a20d14a8b6938346acfc977308f77" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="36a4ea053bf27f78eab037fe94e03062" />
+  <entry md5="8099d359816999fb9a04a5f6e9140749" mtime="1409293028" name="PKGBUILD" size="877" />
+  <entry md5="fdf6dd914af9b8fb510d28895f40ce25" mtime="1411416052" name="_service" size="213" />
+</directory>

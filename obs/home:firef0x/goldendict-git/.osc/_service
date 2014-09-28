@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/goldendict/goldendict.git</param>
+	<param name="versionformat">g%h</param>
+	<param name="versionprefix">1.5.0.RC.428</param>
+    <param name="filename">goldendict</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">gz</param>
+  </service>
+  <service name="set_version"/>
+</services>

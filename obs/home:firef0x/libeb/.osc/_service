@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">ftp.sra.co.jp</param>
+    <param name="protocol">ftp</param>
+    <param name="path">/pub/misc/eb/eb-4.4.3.tar.bz2</param>
+  </service>
+</services>

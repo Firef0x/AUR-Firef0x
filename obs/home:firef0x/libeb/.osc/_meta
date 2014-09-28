@@ -1,0 +1,5 @@
+<package name="libeb" project="home:firef0x">
+  <title>libeb</title>
+  <description>A C library for accessing CD-ROM books, supports EB, EBG, EBXA, EBXA-C, S-EBXA and EPWING formats.</description>
+</package>
+
