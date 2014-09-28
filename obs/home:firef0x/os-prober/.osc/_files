@@ -1,0 +1,5 @@
+<directory name="os-prober" rev="1" srcmd5="321c51a73fef09e25306d7a966de6774" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="d62c21b16206aa97f015a4e4c627c841" />
+  <entry md5="b9a9369c8739f57312d45bf1a81a6a9b" mtime="1399470386" name="PKGBUILD" size="1475" />
+  <entry md5="e89b0f17114f0707eef2a6bb0a9157b8" mtime="1411492633" name="_service" size="236" />
+</directory>

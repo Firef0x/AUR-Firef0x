@@ -1,0 +1,5 @@
+<package name="burg-bios-bzr" project="home:firef0x">
+  <title>burg-bios-bzr</title>
+  <description>Brand-new Universal loadeR from Grub2 - Built for i386 BIOS for Arch Linux</description>
+</package>
+

@@ -1,0 +1,10 @@
+<directory name="burg-bios-bzr" rev="3" srcmd5="e84e353a1b21f1875e852ef3f30ccfa6" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="92f9f99b315791269dec13c22b543e26" />
+  <entry md5="9482c89ad0fb90b9551a559489faf6ce" mtime="1411493457" name="60_memtest86+" size="1153" />
+  <entry md5="01c21bee8b2a6f468e9927723fb8fc75" mtime="1411493458" name="CHANGELOG.md" size="5922" />
+  <entry md5="e8d1833da55f7bce6d8405cc2005acf2" mtime="1411499999" name="PKGBUILD" size="4844" />
+  <entry md5="2d1c0213bd9446722c718acf6c0dbcf7" mtime="1411493461" name="_service" size="451" />
+  <entry md5="5733f8321ab786ed8062423109843e74" mtime="1411493463" name="burg.default" size="1997" />
+  <entry md5="5fe2db653162db090cca0dce08fb18cc" mtime="1411493464" name="burg.install" size="1384" />
+  <entry md5="67d4b8ddaf63671bda0640ffc7f55fd5" mtime="1411493465" name="update-burg" size="64" />
+</directory>
