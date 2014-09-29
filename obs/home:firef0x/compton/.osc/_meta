@@ -1,0 +1,5 @@
+<package name="compton" project="home:firef0x">
+  <title>compton</title>
+  <description>X Compositor (a fork of xcompmgr-dana)</description>
+</package>
+
