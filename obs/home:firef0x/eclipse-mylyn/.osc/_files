@@ -1,0 +1,6 @@
+<directory name="eclipse-mylyn" rev="1" srcmd5="6bfe0070faf92e3206d8b28bec746d04" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="62e2cb96f4c83e49ed7429fc62362e90" />
+  <entry md5="31c0e146567a48dd3d56df45380385a8" mtime="1411917967" name="ChangeLog" size="2332" />
+  <entry md5="f3fd06ec0e3758eda6056ec33f431967" mtime="1411917968" name="PKGBUILD" size="1793" />
+  <entry md5="70327e0a6d996b5b9b04611108cb5e12" mtime="1411917970" name="_service" size="258" />
+</directory>

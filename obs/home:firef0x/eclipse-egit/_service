@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">ftp-stud.fht-esslingen.de</param>
+    <param name="protocol">http</param>
+    <param name="path">/pub/Mirrors/eclipse/egit/updates-3.3.2/org.eclipse.egit.repository-3.3.2.201404171909-r.zip</param>
+  </service>
+</services>

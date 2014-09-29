@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">sourceforge.net</param>
+    <param name="protocol">http</param>
+    <param name="path">/projects/regex-util/files/regex-util/1.2.4/com.ess.regexutil_1.2.4.jar</param>
+  </service>
+</services>

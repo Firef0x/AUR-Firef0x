@@ -1,0 +1,5 @@
+<package name="eclipse-egit" project="home:firef0x">
+  <title>eclipse-egit</title>
+  <description>An Eclipse Team provider for the Git version control system</description>
+</package>
+

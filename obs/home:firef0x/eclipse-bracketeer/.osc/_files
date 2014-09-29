@@ -1,0 +1,11 @@
+<directory name="eclipse-bracketeer" rev="1" srcmd5="a996b1272f882757397662c44686ace9" vrev="1">
+  <entry md5="8c8d54186fe926e2169e8ff150842d3f" mtime="1411787768" name="PKGBUILD" size="5029" />
+  <entry md5="3e84b6223e58676f828e64efeecf473a" mtime="1411787769" name="com.chookapp.org.features.BracketeerCDT_1.2.0.201307111632-mgodbolt.jar" size="4911" />
+  <entry md5="4177134bcf21a8e02330d7d80f8cd184" mtime="1411787771" name="com.chookapp.org.features.BracketeerJDT_1.2.0.201203031719.jar" size="4895" />
+  <entry md5="4095d4f0ca0b403a57ab8c95bce2435d" mtime="1411787772" name="com.chookapp.org.features.Bracketeer_1.2.0.201307111632-mgodbolt.jar" size="4998" />
+  <entry md5="de6b29ad14071541c4756fa4677e60d5" mtime="1411787774" name="com.chookapp.org.features.OverviewRulerBackground_1.1.0.201112231228.jar" size="517" />
+  <entry md5="f857f009842c4f76068c78cd9a864252" mtime="1411787776" name="com.chookapp.org.plugins.BracketeerCDT_1.2.0.201307111632-mgodbolt.jar" size="46475" />
+  <entry md5="5e4a534b25500440f965cc61766c2b78" mtime="1411787779" name="com.chookapp.org.plugins.BracketeerJDT_1.2.0.201203031719.jar" size="31509" />
+  <entry md5="3865e004214481a851d4901b740a3b4f" mtime="1411787785" name="com.chookapp.org.plugins.Bracketeer_1.2.0.201307111632-mgodbolt.jar" size="300164" />
+  <entry md5="208c8d186afab146159a44cd5f50a4b5" mtime="1411787787" name="com.chookapp.org.plugins.OverviewRulerBackground_1.1.0.201112231228.jar" size="14933" />
+</directory>

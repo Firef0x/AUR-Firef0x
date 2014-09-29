@@ -1,0 +1,5 @@
+<directory name="eclipse-findbugs" rev="1" srcmd5="1571ff969b44ce9f00e0698604ac058d" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="69cc7380890b7723989eb2a58a1dab08" />
+  <entry md5="e37dab544d5fa2d955986eac1e3de4fd" mtime="1411791761" name="PKGBUILD" size="841" />
+  <entry md5="d29e4c27996ca840f9b0068bfac94788" mtime="1411791762" name="_service" size="308" />
+</directory>

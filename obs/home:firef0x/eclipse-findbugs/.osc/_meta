@@ -1,0 +1,5 @@
+<package name="eclipse-findbugs" project="home:firef0x">
+  <title>eclipse-findbugs</title>
+  <description>FindBugs plugin for Eclipse</description>
+</package>
+

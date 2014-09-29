@@ -1,0 +1,5 @@
+<package name="eclipse-anyedittools" project="home:firef0x">
+  <title>eclipse-anyedittools</title>
+  <description>Adds several new tools to the context menu of text-based Eclipse editors, to output consoles, to Eclipse main menu and editor toolbar.</description>
+</package>
+

@@ -1,0 +1,5 @@
+<package name="eclipse-bracketeer" project="home:firef0x">
+  <title>eclipse-bracketeer</title>
+  <description>Bracketeer is a platform used to enrich the editors in Eclipse by coloring the brackets surrounding the cursor and brackets which have no match and showing automatic comments on brackets closing</description>
+</package>
+

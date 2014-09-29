@@ -1,0 +1,5 @@
+<package name="eclipse-regexutil" project="home:firef0x">
+  <title>eclipse-regexutil</title>
+  <description>Eclipse plugin for testing/editing regular expressions flavor of the Sun Java standard API</description>
+</package>
+

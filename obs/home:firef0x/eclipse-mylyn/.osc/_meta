@@ -1,0 +1,5 @@
+<package name="eclipse-mylyn" project="home:firef0x">
+  <title>eclipse-mylyn</title>
+  <description>A task-focused interface for Eclipse</description>
+</package>
+

@@ -1,0 +1,20 @@
+# Contributor: Artyom Smirnov <smirnoffjr@gmail.com>
+# Contributor: Luca Cesari <mirshann@freakmind.org>
+
+pkgname=eclipse-anyedittools
+pkgver=2.4.8.201406251302
+pkgrel=1
+pkgdesc="Adds several new tools to the context menu of text-based Eclipse editors, to output consoles, to Eclipse main menu and editor toolbar."
+arch=('any')
+url="http://andrei.gmxhome.de/anyedit/"
+license=('GPL')
+depends=("eclipse>=3.5")
+source=(http://dl.bintray.com/iloveeclipse/plugins/de.loskutov.anyedit.AnyEditTools_${pkgver}.jar)
+noextract=("de.loskutov.anyedit.AnyEditTools_$pkgver.jar")
+md5sums=('245fdc7e764d292ea09c613ffd452ad7')
+
+package() {
+    _plugin=de.loskutov.anyedit.AnyEditTools_${pkgver}.jar
+    install -Dm644 "${srcdir}/${_plugin}" "${pkgdir}/usr/share/eclipse/dropins/${pkgname/eclipse-}/eclipse/plugins/${_plugin}"
+}
+

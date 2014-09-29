@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="protocol">http</param>
+    <param name="path">/project/findbugs/findbugs%20eclipse%20plugin/2.0.3/edu.umd.cs.findbugs.plugin.eclipse_2.0.3.20131122-15020.zip</param>
+  </service>
+</services>
