@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">repo-ck.com</param>
+    <param name="protocol">http</param>
+    <param name="path">/source/anything-sync-daemon/anything-sync-daemon-3.23.tar.xz</param>
+  </service>
+</services>

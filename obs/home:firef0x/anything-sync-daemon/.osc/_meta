@@ -1,0 +1,5 @@
+<package name="anything-sync-daemon" project="home:firef0x">
+  <title>anything-sync-daemon</title>
+  <description>Offload anything to RAM (tmpfs) for speed and wear reduction.</description>
+</package>
+
