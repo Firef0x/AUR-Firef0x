@@ -1,0 +1,5 @@
+<directory name="bcompare" rev="1" srcmd5="f8722b6680124908185ac862d7e0985e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="4c21d08fb0faa89ecce25e3564e20531" />
+  <entry md5="ca19b5882e158f8ab20ad23e653b9378" mtime="1411913124" name="PKGBUILD" size="3072" />
+  <entry md5="dee9c9d99dad8d80d60f442d504959f3" mtime="1411488543" name="_service" size="224" />
+</directory>
