@@ -1,0 +1,5 @@
+<package name="rar" project="home:firef0x">
+  <title>rar</title>
+  <description>A command-line port of the rar compression utility</description>
+</package>
+

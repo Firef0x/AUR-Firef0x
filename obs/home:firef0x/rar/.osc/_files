@@ -1,0 +1,5 @@
+<directory name="rar" rev="1" srcmd5="ea769146ce0754a23ff336cb12110b7f" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="16aee1ca43deaccdec40a0dac18ccfa8" />
+  <entry md5="a3373e38faaca1ac7bd03e59b458d189" mtime="1411490836" name="PKGBUILD" size="967" />
+  <entry md5="c693756a05c35750f300d37aac220788" mtime="1411490837" name="_service" size="405" />
+</directory>
