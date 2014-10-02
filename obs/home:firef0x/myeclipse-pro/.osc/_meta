@@ -1,0 +1,5 @@
+<package name="myeclipse-pro" project="home:firef0x">
+  <title>myeclipse-pro</title>
+  <description>A set of integrated plugins to the eclipse platform, built on the eclipse classic distribution which includes basic java development tools</description>
+</package>
+
