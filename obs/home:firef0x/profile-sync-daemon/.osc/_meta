@@ -1,0 +1,5 @@
+<package name="profile-sync-daemon" project="home:firef0x">
+  <title>profile-sync-daemon</title>
+  <description>Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers.</description>
+</package>
+
