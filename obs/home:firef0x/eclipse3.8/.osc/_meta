@@ -1,0 +1,8 @@
+<package name="eclipse3.8" project="home:firef0x">
+  <title>eclipse3.8</title>
+  <description>An IDE for Java and other languages - 3.8 - simultaneously released with 4.2 Juno.</description>
+  <build>
+    <enable/>
+  </build>
+</package>
+

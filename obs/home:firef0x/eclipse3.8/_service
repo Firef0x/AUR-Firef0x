@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="host">archive.eclipse.org</param>
+    <param name="protocol">http</param>
+    <param name="path">/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-linux-gtk.tar.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="host">archive.eclipse.org</param>
+    <param name="protocol">http</param>
+    <param name="path">/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-linux-gtk-x86_64.tar.gz</param>
+  </service>
+</services>

@@ -1,0 +1,9 @@
+<directory name="eclipse3.8" rev="2" srcmd5="9d5af563bdc29ff2af90309c3c65ea96" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="7b7a655ad2c5725ef6eb2757d7152db7" />
+  <entry md5="ae6a2a800e0eb9e413a903bdd5f1671b" mtime="1411491227" name="PKGBUILD" size="2273" />
+  <entry md5="f94c3c84e28d5bd6c0baadbd966a07a3" mtime="1411485583" name="_service" size="526" />
+  <entry md5="ba2cf02c48e6e35bfe3685401c26bb5b" mtime="1411485584" name="eclipse.desktop" size="178" />
+  <entry md5="5011da3d81bb64e569930c631e42d866" mtime="1411485585" name="eclipse.install" size="158" />
+  <entry md5="7ea99a30fbaf06ec29261541b8eb1e23" mtime="1411485586" name="eclipse.sh" size="111" />
+  <entry md5="77cff7543ccf7e177cb6667f5a20ce19" mtime="1411485589" name="eclipse.svg" size="82426" />
+</directory>
