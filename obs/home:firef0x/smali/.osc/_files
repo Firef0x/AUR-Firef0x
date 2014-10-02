@@ -1,0 +1,5 @@
+<directory name="smali" rev="1" srcmd5="9227544208aeba324ab92c1e44427a5e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="588d33c4aa440ff488dc918f8ff07e2d" />
+  <entry md5="0c9666b9bdc85da09009a03dd5fdf075" mtime="1411837959" name="PKGBUILD" size="1801" />
+  <entry md5="959b0d779db684ca66c9ab24a9393547" mtime="1411837960" name="_service" size="1050" />
+</directory>

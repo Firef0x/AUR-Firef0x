@@ -1,0 +1,27 @@
+<services>
+  <service name="download_url">
+    <param name="host">bitbucket.org</param>
+    <param name="protocol">https</param>
+	<param name="path">/JesusFreke/smali/downloads/baksmali</param>
+  </service>
+  <service name="download_url">
+    <param name="host">bitbucket.org</param>
+    <param name="protocol">https</param>
+	<param name="path">/JesusFreke/smali/downloads/smali</param>
+  </service>
+  <service name="download_url">
+    <param name="host">bitbucket.org</param>
+    <param name="protocol">https</param>
+	<param name="path">/JesusFreke/smali/downloads/baksmali-2.0.3.jar</param>
+  </service>
+  <service name="download_url">
+    <param name="host">bitbucket.org</param>
+    <param name="protocol">https</param>
+	<param name="path">/JesusFreke/smali/downloads/smali-2.0.3.jar</param>
+  </service>
+  <service name="download_url">
+    <param name="host">bitbucket.org</param>
+    <param name="protocol">https</param>
+	<param name="path">/JesusFreke/smali/raw/7a03efcac6083f2d1b686521931b8dd4d983a304/NOTICE</param>
+  </service>
+</services>
