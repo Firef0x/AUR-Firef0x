@@ -1,0 +1,5 @@
+<package name="libsodium" project="home:firef0x">
+  <title>libsodium</title>
+  <description>P(ortable|ackageable) NaCl-based crypto library</description>
+</package>
+

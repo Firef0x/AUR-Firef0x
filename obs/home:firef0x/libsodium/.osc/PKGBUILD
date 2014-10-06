@@ -1,0 +1,41 @@
+# $Id$
+# Maintainer: Felix Yan <felixonmars@gmail.com>
+# Contributor: namelessjon <jonathan.stott@gmail.com>
+# Contributor: Alessio Sergi <asergi at archlinux dot us>
+
+pkgname=libsodium
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="P(ortable|ackageable) NaCl-based crypto library"
+arch=('i686' 'x86_64')
+url="https://github.com/jedisct1/libsodium"
+license=('custom:ISC')
+depends=('glibc')
+#makedepends=('clang')
+source=("http://download.dnscrypt.org/$pkgname/releases/$pkgname-${pkgver}.tar.gz")
+sha512sums=('c60693130460b307469707854b86fc85733483e9ad9f492e692340cf4fef82dfaf388f890f18380cb6ee569597ef89a1ee4c94d47c10bb4da0703418fec18099')
+
+build() {
+  cd "$pkgname-$pkgver"
+  #export CC=clang
+  #CFLAGS=${CFLAGS/-fstack-protector-strong/}
+
+  ./configure --prefix=/usr
+  make
+}
+
+check() {
+  cd "$pkgname-$pkgver"
+  make check
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  make DESTDIR="$pkgdir" install
+
+  # install license
+  install -d -m 755 "$pkgdir/usr/share/licenses/$pkgname"
+  install -m 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
+
+# vim:set ts=2 sw=2 et:
