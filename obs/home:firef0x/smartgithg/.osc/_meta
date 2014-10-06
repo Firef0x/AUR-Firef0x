@@ -1,0 +1,5 @@
+<package name="smartgithg" project="home:firef0x">
+  <title>smartgithg</title>
+  <description>Git/Hg GUI client written in Java.</description>
+</package>
+
