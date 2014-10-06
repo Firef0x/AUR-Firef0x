@@ -1,0 +1,11 @@
+<directory name="sublime-text-dev-imfix" rev="1" srcmd5="4875721f18b54466f5e5587652e2107e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="75d9b991cd15d89ac4965ab9cc94f4fe" />
+  <entry md5="ee96c697ef707e92077d0c55ec14922a" mtime="1411491604" name="LICENSE" size="329" />
+  <entry md5="b8771d07c9a268e1363a3da9bd5513aa" mtime="1411491605" name="PKGBUILD" size="2281" />
+  <entry md5="f070450451afab4c44bcb4a4e5c9049f" mtime="1411491606" name="README.md" size="3530" />
+  <entry md5="4162fdb3c20fec3f6c926b6917235b18" mtime="1411491607" name="_service" size="451" />
+  <entry md5="70b182c165360e69dcaac167e40e2096" mtime="1411491609" name="subl3" size="566" />
+  <entry md5="bcd39a3adf4bfcc78debd2a3b5225a45" mtime="1411491610" name="sublime-text-dev-imfix.install" size="938" />
+  <entry md5="b9cfc9418af10b5c8b509f98f310da7f" mtime="1411491611" name="sublime_imfix.c" size="2479" />
+  <entry md5="832dcc3705358c47540e6cdb5d435858" mtime="1411491612" name="sublime_text_3.desktop" size="461" />
+</directory>

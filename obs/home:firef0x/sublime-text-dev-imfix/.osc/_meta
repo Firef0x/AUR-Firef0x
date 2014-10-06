@@ -1,0 +1,5 @@
+<package name="sublime-text-dev-imfix" project="home:firef0x">
+  <title>sublime-text-dev-imfix</title>
+  <description>Sophisticated text editor for code, HTML and prose , a dry fixed for development build, which supported Fcitx input method.</description>
+</package>
+
