@@ -1,0 +1,26 @@
+# Maintainer: Cyker Way <cykerway at gmail dot com>
+# Contributor: Firef0x <Firefgx {at) gmail [dot} com>
+
+pkgname=aafm-git
+pkgver=20140930
+pkgrel=1
+pkgdesc="Android ADB File Manager."
+arch=(any)
+url="https://github.com/sole/aafm"
+license=('GPL3')
+depends=('python2' 'pygtk')
+makedepends=('git')
+provides=('aafm')
+conflicts=('aafm')
+install="${pkgname}.install"
+source=("${pkgname}-${pkgver}.tar.gz")
+md5sums=('SKIP')
+
+package() {
+  cd ${pkgname}-${pkgver}
+  python2 setup.py install --root="$pkgdir/" --optimize=1
+  pkgrel=1
+  depends+=('android-sdk-platform-tools')
+}
+
+# vim:set ts=2 sw=2 et:

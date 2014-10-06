@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+	<param name="url">git://github.com/sole/aafm.git</param>
+	<param name="versionformat">%cd</param>
+    <param name="filename">aafm-git</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">gz</param>
+  </service>
+  <service name="set_version"/>
+</services>
