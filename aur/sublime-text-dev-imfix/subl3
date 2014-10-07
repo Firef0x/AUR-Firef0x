@@ -12,11 +12,13 @@ PID=$(pidof -o %PPID ${BIN} 2>/dev/null)
 ARGS="--class=sublime-text"
 
 if [[ ${1:(-16)} == ".sublime-project" ]]; then
-	ARGS="${ARGS} --project"
+  ARGS="${ARGS} --project"
 fi
 
 if [[ -n ${PID} ]]; then
-	LD_PRELOAD=$LD_LIB ${BIN} ${ARGS} "$@"
+  LD_PRELOAD=$LD_LIB ${BIN} ${ARGS} "$@"
 else
-	LD_PRELOAD=$LD_LIB ${BIN} ${ARGS} "$@" &
+  LD_PRELOAD=$LD_LIB ${BIN} ${ARGS} "$@" &
 fi
+
+# vim:set ts=2 sw=2 et:
