@@ -1,0 +1,23 @@
+<directory name="intel-parallel-studio-xe" rev="6" srcmd5="8a2d0023578e6556727820744afb8038" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="dd09b7778a4a5dc72b0ba9a0fd6725bc" />
+  <entry md5="ecbe04b2e7f9c01a5090ed3235f4d2dc" mtime="1412622589" name="EULA.txt" size="20932" />
+  <entry md5="94dcb195105d52bcbe3359deb85f067c" mtime="1412692570" name="PKGBUILD" size="29249" />
+  <entry md5="657e5a68cb1e41682da89ba01d0f51bf" mtime="1412622592" name="_service" size="268" />
+  <entry md5="a596377b7661bbfef73746cae894be02" mtime="1412622594" name="intel-compiler-base.conf" size="16" />
+  <entry md5="aff593a4ab32b1b03fa946d8733025e4" mtime="1412622595" name="intel-composer.install" size="363" />
+  <entry md5="f9d79ca050930405eab65ad905e9e8df" mtime="1412622597" name="intel-fortran.conf" size="81" />
+  <entry md5="b3c65f74f37cd32a5262cf1efc3acdbe" mtime="1412622599" name="intel-idb.conf" size="32" />
+  <entry md5="51c46449f6301d9d05275eb07e3ac23e" mtime="1412622600" name="intel-ipp.conf" size="27" />
+  <entry md5="ad12ce9a9d24ba19a492019fdeff401a" mtime="1412622601" name="intel-mkl-th.conf" size="513" />
+  <entry md5="6e933eacc2edae0d73567f72439d471f" mtime="1412622603" name="intel-mkl.conf" size="26" />
+  <entry md5="edd22493dbaf7dc345de1083f126cdd9" mtime="1412622605" name="intel-mkl.install" size="456" />
+  <entry md5="fe2beb1b6c008a9384d9aaf53efd5092" mtime="1412622606" name="intel-mkl.sh" size="29" />
+  <entry md5="2b1628f30b0d68de194d3ce328be79bc" mtime="1412622608" name="intel-openmp.conf" size="20" />
+  <entry md5="cd1823c6567d53c7a4a857c40fe8a69e" mtime="1412622609" name="intel-tbb.conf" size="76" />
+  <entry md5="f1bedc51de894da9b4670c0816d42131" mtime="1412622610" name="intel-tbb.install" size="1060" />
+  <entry md5="2fa2f0fe85bcdc0e4a0ca2e26f1348b5" mtime="1412622612" name="intel_advisor-xe.sh" size="56" />
+  <entry md5="350cda09cb0081663d86fc488cc89eef" mtime="1412622614" name="intel_compilers.sh" size="402" />
+  <entry md5="fa6281d847d2673a33b83b37d1fd1654" mtime="1412622615" name="intel_inspector-xe.sh" size="59" />
+  <entry md5="79e0b1a3aeb09d39c59749178ace7c6e" mtime="1412622617" name="intel_vtune-amplifier-xe.sh" size="64" />
+  <entry md5="8b7cfc11f534de835b780f718d29b6d8" mtime="1412622618" name="linence.lic" size="3400" />
+</directory>

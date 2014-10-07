@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">registrationcenter-download.intel.com</param>
+    <param name="protocol">http</param>
+    <param name="path">/akdlm/irc_nas/4220/parallel_studio_xe_2013_sp1_update3.tgz</param>
+  </service>
+</services>
