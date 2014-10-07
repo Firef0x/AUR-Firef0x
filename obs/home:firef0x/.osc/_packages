@@ -2,4 +2,30 @@
   <package name="goldendict-git" state=" " />
   <package name="libeb" state=" " />
   <package name="ffmpeg" state=" " />
+  <package name="eclipse3.8" state=" " />
+  <package name="rar" state=" " />
+  <package name="os-prober" state=" " />
+  <package name="burg-bios-bzr" state=" " />
+  <package name="myeclipse-pro" state=" " />
+  <package name="myeclipse-spring" state=" " />
+  <package name="smartgithg" state=" " />
+  <package name="sublime-text-dev-imfix" state=" " />
+  <package name="eclipse-bracketeer" state=" " />
+  <package name="profile-sync-daemon" state=" " />
+  <package name="anything-sync-daemon" state=" " />
+  <package name="eclipse-findbugs" state=" " />
+  <package name="ttf-ms-win8" state=" " />
+  <package name="smali" state=" " />
+  <package name="zeromq" state=" " />
+  <package name="libsodium" state=" " />
+  <package name="bcompare" state=" " />
+  <package name="eclipse-egit" state=" " />
+  <package name="eclipse-mylyn" state=" " />
+  <package name="compton" state=" " />
+  <package name="asciidoc" state=" " />
+  <package name="eclipse-anyedittools" state=" " />
+  <package name="eclipse-regexutil" state=" " />
+  <package name="aafm-git" state=" " />
+  <package name="intel-parallel-studio-xe" state=" " />
+  <package name="oh-my-zsh-git" state=" " />
 </project>

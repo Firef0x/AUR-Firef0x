@@ -1,7 +1,11 @@
 /aur/eclipse3.8/eclipse-SDK-3.8.2-linux-gtk-x86_64.tar.gz
 /obs/home:firef0x/goldendict-git/goldendict
-src
-pkg
+/aur/*/src
+/aur/*/pkg
+/aur/*/*.tar.bz2
+*.jar
+*.run
 *.src.tar*
 *.pkg.tar*
-*.run
+*.ttf
+*.ttc
