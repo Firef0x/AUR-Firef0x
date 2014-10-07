@@ -1,0 +1,44 @@
+# Maintainer: jcsiv <siviter dot jamie at gmx dot co dot uk>
+# Contributor: ThinCarrotShrimp <christoph.r.martin+arch at gmail dot com>
+
+pkgname=oh-my-zsh-git
+pkgver=2774.96e4e5d
+pkgrel=2
+pkgdesc="A community-driven framework for managing your zsh configuration."
+arch=('any')
+url='https://github.com/robbyrussell/oh-my-zsh'
+license=('MIT')
+depends=('zsh')
+optdepends=('ruby: for some plugin functionality')
+install='oh-my-zsh-git.install'
+
+_gitname=oh-my-zsh
+source=("${_gitname}-${pkgver}.tar.gz")
+md5sums=('SKIP')
+
+package() {
+  cd "${_gitname}-${pkgver}"
+
+  mkdir -p "${pkgdir}/usr/share/oh-my-zsh"
+
+  # Fix the path to oh-my-zsh, and disable auto-updating.
+  sed -e '2c\ZSH=/usr/share/oh-my-zsh/'\
+      -e 's/# \(DISABLE_AUTO_UPDATE="true"\)/\1/'\
+      templates/zshrc.zsh-template > zshrc
+
+  # We don't need anything related to git in the package.
+  # rm -rf .git*
+
+  # We don't need {check_for_,}upgrade.sh, {un,}install.sh
+  rm -f tools/upgrade.sh
+  rm -f tools/uninstall.sh tools/install.sh
+
+  # The license should be in /usr/share/licenses.
+  install -D -m644 MIT-LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  rm MIT-LICENSE.txt
+
+  # Copy everything else.
+  cp -r . "${pkgdir}/usr/share/oh-my-zsh/"
+
+  pkgrel=2
+}

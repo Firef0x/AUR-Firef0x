@@ -1,0 +1,6 @@
+<directory name="oh-my-zsh-git" rev="2" srcmd5="57640125c92391f5555d2c9da9f560df" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="e5b5c3035b77768d82762e628eccdfd1" />
+  <entry md5="464c351043e67d89a495fe63554ac4df" mtime="1412715306" name="PKGBUILD" size="1243" />
+  <entry md5="0b7a3c51d694425b22edc17d1dc22c94" mtime="1412715006" name="_service" size="451" />
+  <entry md5="ba1085c4e9f7468be4edd884a6983dcd" mtime="1412715007" name="oh-my-zsh-git.install" size="169" />
+</directory>

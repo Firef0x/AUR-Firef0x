@@ -1,0 +1,5 @@
+<package name="oh-my-zsh-git" project="home:firef0x">
+  <title>oh-my-zsh-git</title>
+  <description>A community-driven framework for managing your zsh configuration.</description>
+</package>
+

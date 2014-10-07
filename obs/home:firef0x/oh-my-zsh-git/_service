@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/robbyrussell/oh-my-zsh.git</param>
+	<param name="versionformat">%h</param>
+	<param name="versionprefix">2774</param>
+    <param name="filename">oh-my-zsh</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">gz</param>
+  </service>
+  <service name="set_version"/>
+</services>
