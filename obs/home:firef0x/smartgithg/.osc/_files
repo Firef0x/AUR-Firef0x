@@ -1,7 +1,7 @@
-<directory name="smartgithg" rev="1" srcmd5="80ad341e3a390958a68fc138efab4c81" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="3fa549921142d08ee11c2d03ef23a4eb" />
-  <entry md5="5ba93d7dd2f1dedef4a7b22c7f96c168" mtime="1411504884" name="PKGBUILD" size="1207" />
-  <entry md5="68c18f9083cd0400a6e63269217f66dd" mtime="1411504885" name="_service" size="239" />
+<directory name="smartgithg" rev="2" srcmd5="ebd387ca5a674b7d03673f9c36d2452c" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="290a46147e0a93d8bcea5c29a246d2fd" />
+  <entry md5="bcca8ae2aa5ac21d875b71021dc9762e" mtime="1412973425" name="PKGBUILD" size="1197" />
+  <entry md5="493b429e32dac50e9a49aac3d6a0268a" mtime="1412973427" name="_service" size="240" />
   <entry md5="0f97479d9fcd4f222cf3ee2ff6cdf3c7" mtime="1411504886" name="smartgithg.desktop" size="328" />
   <entry md5="13a92347f70a4ee9755ebd726f8b1bb3" mtime="1411504888" name="smartgithg.install" size="366" />
 </directory>

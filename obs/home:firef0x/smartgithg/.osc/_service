@@ -1,7 +1,7 @@
 <services>
   <service name="download_url">
     <param name="host">www.syntevo.com</param>
-    <param name="protocol">http</param>
-    <param name="path">/download/smartgithg/smartgithg-generic-6_0_6.tar.gz</param>
+    <param name="protocol">https</param>
+    <param name="path">/download/smartgithg/smartgithg-generic-6_0_7.tar.gz</param>
   </service>
 </services>
