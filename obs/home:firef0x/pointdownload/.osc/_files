@@ -1,0 +1,6 @@
+<directory name="pointdownload" rev="5" srcmd5="a3afe12ba9e51caa39cad991dc749525" vrev="5">
+  <entry md5="373c7893f785bbf89aded5dc9f27d010" mtime="1413097472" name="PKGBUILD" size="979" />
+  <entry md5="4e7901f982895ac2eaf765b3f4303731" mtime="1413096730" name="pointdownload-1.2.0-i686.deb" size="804098" />
+  <entry md5="eace9c25e646e4ca4d53f75310e17d13" mtime="1413096744" name="pointdownload-1.2.0-x86_64.deb" size="800702" />
+  <entry md5="7ba67275ffd89dd90a0c0fae62c81029" mtime="1413063331" name="pointdownload.install" size="170" />
+</directory>

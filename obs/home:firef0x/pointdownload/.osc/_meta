@@ -1,0 +1,5 @@
+<package name="pointdownload" project="home:firef0x">
+  <title>pointdownload</title>
+  <description>A downloader supporting http, ftp, bt, magnet and thunder protocol</description>
+</package>
+
