@@ -1,5 +1,9 @@
 <package name="ffmpeg" project="home:firef0x">
   <title>ffmpeg</title>
   <description>Complete and free Internet live audio and video broadcasting solution</description>
+  <publish>
+    <disable arch="i586"/>
+    <disable/>
+  </publish>
 </package>
 
