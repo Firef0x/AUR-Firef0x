@@ -1,16 +1,17 @@
 # Firef0x's PKGBUILDs for Arch Linux
 
-  A collection of PKGBUILDs I wrote or maintained. For Arch Linux only.
+A collection of PKGBUILDs I wrote or maintained or built. For Arch Linux only.
+All of them are built in [Firef0x's Arch Linux Repository][17].
+Short URL of this repository is [http://git.io/au][18].
 
 
 # Includes
 
-*  [BCloud][13]
-  *  `yaourt -S bcloud`
+*  BCloud
   *  [Official Page][14]
   *  Description: Baidu Pan client for Linux Desktop users
   *  描述: 百度网盘的 Linux 桌面客户端
-  *  Version: 3.5.1
+  *  Version: 3.5.1 (Outdated)
 *  [Brand-new Universal loadeR from Grub][9]
   *  `yaourt -S burg-bios-bzr`
   *  [Official Page][8]
@@ -24,12 +25,12 @@
   *  描述: 在 Eclipse 中增强编辑器的功能，主要有彩色化括号及在括号闭合处显示自动注释
   *  Version: 1.2.0
 *  [Firefox Private][1]
-  *  `yaourt -S firefox-private`
+  *  `yaourt -S firefox-private-bin`
   *  [Official Page][5]
   *  [Discussion Thread (Chinese)][12]
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
-  *  Version: 32.0
+  *  Version: 33.0
 *  [Sublime Text Dev version with Input Method Fix][2]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][6]
@@ -49,7 +50,7 @@
   *  [Official Page][7]
   *  Version: 2013 SR2
 
-[1]: https://aur.archlinux.org/packages/firefox-private/
+[1]: https://aur.archlinux.org/packages/firefox-private-bin/
 [2]: https://aur.archlinux.org/packages/sublime-text-dev-imfix/
 [3]: https://aur.archlinux.org/packages/myeclipse-pro/
 [4]: https://aur.archlinux.org/packages/myeclipse-spring/
@@ -65,3 +66,5 @@
 [14]: https://github.com/LiuLang/bcloud
 [15]: https://aur.archlinux.org/packages/eclipse-bracketeer/
 [16]: https://github.com/chookapp/Bracketeer
+[17]: https://build.opensuse.org/project/show/home:firef0x
+[18]: https://github.com/Firef0x/AUR-Firef0x
