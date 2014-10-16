@@ -2,11 +2,11 @@
   <service name="download_url">
     <param name="host">download.zeromq.org</param>
     <param name="protocol">http</param>
-    <param name="path">zeromq-4.0.4.tar.gz</param>
+    <param name="path">zeromq-4.0.5.tar.gz</param>
   </service>
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/zeromq/cppzmq/04d289760/zmq.hpp</param>
+    <param name="path">/zeromq/cppzmq/1f05e0d11/zmq.hpp</param>
   </service>
 </services>
