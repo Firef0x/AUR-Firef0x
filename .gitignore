@@ -3,6 +3,7 @@
 /aur/*/src
 /aur/*/pkg
 /aur/*/*.tar.bz2
+*.deb
 *.jar
 *.run
 *.src.tar*
