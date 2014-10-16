@@ -28,4 +28,7 @@
   <package name="aafm-git" state=" " />
   <package name="intel-parallel-studio-xe" state=" " />
   <package name="oh-my-zsh-git" state=" " />
+  <package name="xz-git" state=" " />
+  <package name="pointdownload" state=" " />
+  <package name="firefox-private-bin" state=" " />
 </project>

@@ -1,5 +1,8 @@
 <package name="asciidoc" project="home:firef0x">
   <title>asciidoc</title>
   <description>Text document format for short documents, articles, books and UNIX man pages.</description>
+  <publish>
+    <disable/>
+  </publish>
 </package>
 
