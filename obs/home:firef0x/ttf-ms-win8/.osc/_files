@@ -1,4 +1,4 @@
-<directory name="ttf-ms-win8" rev="3" srcmd5="085e3684d84014498b97fee78283413a" vrev="3">
+<directory name="ttf-ms-win8" rev="4" srcmd5="d395b2b08a1cf839507d823da817508b" vrev="4">
   <entry md5="49bd0e2a91dfa22c23df990f2d0908e0" mtime="1411836354" name="20-ttf-ms-win8-japanese.conf" size="1130" />
   <entry md5="7dca2ed765480ede970aebb9d2a698f2" mtime="1411836356" name="20-ttf-ms-win8-korean.conf" size="1730" />
   <entry md5="b8dbd6078b1601dd3b69e330973ae606" mtime="1411836357" name="20-ttf-ms-win8-zh_cn.conf" size="499" />
@@ -18,7 +18,7 @@
   <entry md5="683719689ce3635687532089a45d510f" mtime="1411840854" name="Nirmala.ttf" size="1382320" />
   <entry md5="2790b726c7bf4c97c59a00ad7f477d01" mtime="1411840877" name="NirmalaB.ttf" size="1333916" />
   <entry md5="81e80101d01e14414591e4b899099483" mtime="1411840902" name="NirmalaS.ttf" size="1417624" />
-  <entry md5="52453efe0d347749c0a1904e8dbbd771" mtime="1411836360" name="PKGBUILD" size="40493" />
+  <entry md5="b647e818bb36376e149e56607d857960" mtime="1413457326" name="PKGBUILD" size="40561" />
   <entry md5="83ad1bd9bdd341fea84dcd285212a453" mtime="1411840912" name="Shonar.ttf" size="331252" />
   <entry md5="19575391e2289ae658454921d5fd8463" mtime="1411840918" name="Shonarb.ttf" size="266592" />
   <entry md5="164ff6ff28c62089186dc097ae48d2b8" mtime="1411840934" name="Sitka.ttc" size="941112" />

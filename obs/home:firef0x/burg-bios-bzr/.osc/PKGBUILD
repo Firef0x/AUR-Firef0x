@@ -218,4 +218,5 @@ package() {
 
     echo
 
+    pkgrel=1
 }

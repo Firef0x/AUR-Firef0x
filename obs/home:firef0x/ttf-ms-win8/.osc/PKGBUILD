@@ -69,6 +69,9 @@ conflicts=('ttf-ms-fonts' 'ttf-tahoma' 'ttf-vista-fonts' 'ttf-win7-fonts')
 install="$pkgbase.install"
 # PKGEXT='.pkg.tar' # because XZ compression is awfully slow
 
+COMPRESSXZ=(xz -c -z -T0 -)
+PACKAGER="Firef0x <firefgx#gmail.com>"
+
 _ttf_ms_win8=(
 #########################################################################################################
 # Normal         Bold          Italic        Bold+Italic    #  Full name               Version  Comment #
