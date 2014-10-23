@@ -1,0 +1,38 @@
+# Maintainer: Vladimir Tsanev <tsachev@gmail.com>
+# Contributor: Alistair Dutton <kelveden at gmail.com>
+
+pkgname=eclipse-checkstyle
+pkgver=5.8.0
+_pkgver_date=201410171130
+pkgrel=1
+pkgdesc="Checkstyle plugin for Eclipse"
+arch=('any')
+url="http://eclipse-cs.sourceforge.net/"
+license=('LGPL')
+depends=('eclipse')
+optdepends=()
+changelog=CHANGES
+source=("net.sf.eclipsecs-updatesite_${pkgver}.${_pkgver_date}-bin.zip")
+md5sums=('f8165cbf3616982d0cdc31e171796162')
+
+package() {
+  _dest=${pkgdir}/usr/share/eclipse/dropins/${pkgname/eclipse-}/eclipse
+
+  cd ${srcdir}
+
+  # Features
+  find features -type f | while read _feature ; do
+    if [[ ${_feature} =~ (.*\.jar$) ]] ; then
+      install -dm755 ${_dest}/${_feature%*.jar}
+      cd ${_dest}/${_feature/.jar}
+      jar xf ${srcdir}/${_feature} || return 1
+    else
+      install -Dm644 ${_feature} ${_dest}/${_feature}
+    fi
+  done
+
+  # Plugins
+  find plugins -type f | while read _plugin ; do
+    install -Dm644 ${_plugin} ${_dest}/${_plugin}
+  done
+}

@@ -10,3 +10,4 @@
 *.pkg.tar*
 *.ttf
 *.ttc
+net.sf.eclipsecs-updatesite_*-bin.zip

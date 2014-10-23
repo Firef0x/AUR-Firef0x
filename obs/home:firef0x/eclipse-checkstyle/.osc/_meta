@@ -1,0 +1,5 @@
+<package name="eclipse-checkstyle" project="home:firef0x">
+  <title>eclipse-checkstyle</title>
+  <description>Checkstyle plugin for Eclipse</description>
+</package>
+
