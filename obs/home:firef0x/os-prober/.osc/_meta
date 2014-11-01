@@ -1,5 +1,8 @@
 <package name="os-prober" project="home:firef0x">
   <title>os-prober</title>
   <description>Utility to detect other OSes on a set of drives</description>
+  <publish>
+    <disable/>
+  </publish>
 </package>
 
