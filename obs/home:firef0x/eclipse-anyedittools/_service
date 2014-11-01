@@ -2,7 +2,7 @@
   <service name="download_url">
     <param name="host">dl.bintray.com</param>
     <param name="protocol">http</param>
-    <param name="path">/iloveeclipse/plugins/de.loskutov.anyedit.AnyEditTools_2.4.8.201406251302.jar</param>
+    <param name="path">/iloveeclipse/plugins/de.loskutov.anyedit.AnyEditTools_2.4.11.201409071702.jar</param>
   </service>
 </services>
 
