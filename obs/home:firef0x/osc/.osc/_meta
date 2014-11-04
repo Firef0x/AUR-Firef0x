@@ -1,0 +1,5 @@
+<package name="osc" project="home:firef0x">
+  <title>osc</title>
+  <description>Command line client for the openSUSE Build Service</description>
+</package>
+

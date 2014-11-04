@@ -1,0 +1,7 @@
+<directory name="python2-m2crypto" rev="1" srcmd5="6e6a831b8ee0b1166cc338682e33f81e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="218242a4af2e717b558980edfd3a51f3" />
+  <entry md5="b0e1f0b7d0ce8a62c18b1287b991800e" mtime="1391174678" name="LICENSE" size="1310" />
+  <entry md5="2c346eb37ad3a042916ffc678d73cbe7" mtime="1415071565" name="PKGBUILD" size="970" />
+  <entry md5="e969527c15834c476ed086d731c94242" mtime="1400930150" name="_service" size="237" />
+  <entry md5="80a707ad6610f2871efdf40658e30364" mtime="1373769095" name="openssl1.patch" size="18683" />
+</directory>

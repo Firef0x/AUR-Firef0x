@@ -1,0 +1,41 @@
+# Contributor: Bernhard Walle   <bwalle.de: bernhard            >
+# Contributor: Jesse Jaara      <gmail.com, mail.ru: jesse.jaara>
+# Contributor: Armin Wehrfritz
+# Maintainer:  Patrick McCarty  <pnorcks at gmail dot com>
+
+pkgname=osc
+pkgver=0.149.0
+pkgrel=1
+pkgdesc="Command line client for the openSUSE Build Service"
+arch=(any)
+url="http://openbuildservice.org/"
+license=('GPL')
+depends=('python2'
+         'python2-m2crypto'
+         'urlgrabber')
+optdepends=('obs-build: required to run local builds'
+            'obs-service-format_spec_file: for running the format_spec_file source service')
+conflicts=('osc-git' 'osc-bash-completion')
+source=(https://github.com/openSUSE/${pkgname}/archive/${pkgver}.tar.gz)
+sha256sums=('SKIP')
+
+COMPRESSXZ=(xz -c -z -T0 -)
+PACKAGER="Firef0x <firefgx#gmail.com>"
+
+build() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+
+  python2 setup.py build
+}
+
+package() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+
+  python2 setup.py install --root="${pkgdir}/" --optimize=1
+  cd "${pkgdir}/usr/bin"
+  ln -s osc-wrapper.py osc
+  cd -
+
+  install -Dm0644 dist/complete.sh ${pkgdir}/etc/bash_completion.d/osc.sh
+  install -Dm0755 dist/osc.complete ${pkgdir}/usr/lib/osc/complete
+}

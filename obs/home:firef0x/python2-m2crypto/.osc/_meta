@@ -1,0 +1,8 @@
+<package name="python2-m2crypto" project="home:firef0x">
+  <title>python2-m2crypto</title>
+  <description>A crypto and SSL toolkit for Python2</description>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

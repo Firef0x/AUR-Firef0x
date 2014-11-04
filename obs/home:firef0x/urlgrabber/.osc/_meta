@@ -1,0 +1,8 @@
+<package name="urlgrabber" project="home:firef0x">
+  <title>urlgrabber</title>
+  <description>A high-level cross-protocol url-grabber and Python library</description>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

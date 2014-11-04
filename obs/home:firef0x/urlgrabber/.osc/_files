@@ -1,0 +1,5 @@
+<directory name="urlgrabber" rev="1" srcmd5="f02a0e3ca283ac3144ef3c83a2b9d96b" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="b958c90ca3ddc4cce3c6e082f953cd24" />
+  <entry md5="8cb7b0f46ca1669ee54d4db87cdee8fc" mtime="1415071965" name="PKGBUILD" size="734" />
+  <entry md5="a92e9d4cc2cab0e03cce60c67dc7898c" mtime="1390733057" name="_service" size="228" />
+</directory>

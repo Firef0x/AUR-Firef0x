@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">urlgrabber.baseurl.org</param>
+    <param name="protocol">http</param>
+    <param name="path">/download/urlgrabber-3.10.1.tar.gz</param>
+  </service>
+</services>
