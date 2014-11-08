@@ -1,6 +1,6 @@
-<directory name="os-prober" rev="2" srcmd5="5a8d92a8ce1f6be1ca25d477c0c116b3" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="87c1e69e431f8c4cdfeab351c18ed8f5" />
-  <entry md5="b45bae41320b6c0e99d2e835a9de2c84" mtime="1412950688" name="PKGBUILD" size="1713" />
-  <entry md5="e89b0f17114f0707eef2a6bb0a9157b8" mtime="1411492633" name="_service" size="236" />
+<directory name="os-prober" rev="3" srcmd5="b62b0a02da3cfc20e9459c4ed16900d2" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="5b3621fd8a99b4751c00dd13ad8ad293" />
+  <entry md5="470729a5a62770117ce9fc67e6845a98" mtime="1415447617" name="PKGBUILD" size="1738" />
+  <entry md5="349b185706b46168a613634eac37fbbb" mtime="1415447621" name="_service" size="236" />
   <entry md5="ce6218a8a0f791b617a79d29d097d7d8" mtime="1412950689" name="os-prober-util-linux-2.24.patch" size="1504" />
 </directory>

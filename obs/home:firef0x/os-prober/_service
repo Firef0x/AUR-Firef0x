@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="host">ftp.debian.org</param>
     <param name="protocol">ftp</param>
-    <param name="path">/debian/pool/main/o/os-prober/os-prober_1.58.tar.gz</param>
+    <param name="path">/debian/pool/main/o/os-prober/os-prober_1.64.tar.xz</param>
   </service>
 </services>
