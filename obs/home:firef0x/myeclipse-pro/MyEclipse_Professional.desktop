@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=myeclipse
+Categories=Application;Development;
+Name=MyEclipse Professional
+Name[en_US]=MyEclipse Professional
+Comment="A commercially available Java EE and Ajax IDE, built upon the Eclipse platform and integrates both proprietary and open source code into the development environment. Professional Edition."
+Comment[en_US]="A commercially available Java EE and Ajax IDE, built upon the Eclipse platform and integrates both proprietary and open source code into the development environment. Professional Edition."
+Comment[zh_CN]="一个可商用的 Java EE 和 Ajax 企业级集成开发环境, 在 Eclipse 平台基础上构建并集成专有及开源的代码至开发环境中. 专业版本."
+Icon=/usr/share/myeclipse-pro/icon.xpm
+Icon[en_US]=/usr/share/myeclipse-pro/icon.xpm
+StartupNotify=true
