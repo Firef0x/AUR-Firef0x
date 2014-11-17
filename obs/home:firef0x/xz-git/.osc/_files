@@ -1,5 +1,5 @@
-<directory name="xz-git" rev="1" srcmd5="655334e5582f137b5343132e63e3dfd6" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="e925334d69f69cb6dcdf36dcc2013494" />
+<directory name="xz-git" rev="3" srcmd5="875658b8ca1c9e4007613eb594b46227" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="1cdef23ab1cdfb10f7904942997058a5" />
   <entry md5="a020636a72f42c72d37d9848ac4c2aef" mtime="1413062551" name="PKGBUILD" size="1197" />
-  <entry md5="3adbbe9b956f5e64f4a045546cc08aa4" mtime="1413062552" name="_service" size="443" />
+  <entry md5="adda912c56c93660b1e5eda001ab0be4" mtime="1416233608" name="_service" size="444" />
 </directory>
