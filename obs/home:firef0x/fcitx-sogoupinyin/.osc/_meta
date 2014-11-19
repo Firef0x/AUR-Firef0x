@@ -1,0 +1,12 @@
+<package name="fcitx-sogoupinyin" project="home:firef0x">
+  <title>fcitx-sogoupinyin</title>
+  <description>Sogou Pinyin input method
+ Based on web search engine technology, Sogou Pinyin input method is
+ the next-generation input method designed for Internet users. As it
+ is backed with search engine technology, user input method can be
+ extremely fast, and it is much more advanced than other input method
+ engines in terms of the volume of the vocabulary database and its
+ accuracy. Sogou input method is the most popular input methods in
+ China, and Sogou promises it will always be free of charge.</description>
+</package>
+

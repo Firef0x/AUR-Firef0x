@@ -1,0 +1,6 @@
+<directory name="fcitx-sogoupinyin" rev="1" srcmd5="74acd7067d006f9d130f151a15e6edc4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="14c53dc3fe1cf5706304c868b0173f5b" />
+  <entry md5="345706a72ebaf4777d65163e712c42a2" mtime="1416405121" name="PKGBUILD" size="1632" />
+  <entry md5="045c52a8e4735a72c4e897dc145a0cfa" mtime="1416405123" name="_service" size="466" />
+  <entry md5="2b6cef8db26e9f1d1c300dba5de9c215" mtime="1416405125" name="sogou-autostart" size="91" />
+</directory>

@@ -35,4 +35,5 @@
   <package name="python2-m2crypto" state=" " />
   <package name="urlgrabber" state=" " />
   <package name="osc" state=" " />
+  <package name="fcitx-sogoupinyin" state=" " />
 </project>
