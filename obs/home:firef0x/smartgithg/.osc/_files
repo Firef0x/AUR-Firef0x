@@ -1,7 +1,7 @@
-<directory name="smartgithg" rev="2" srcmd5="ebd387ca5a674b7d03673f9c36d2452c" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="290a46147e0a93d8bcea5c29a246d2fd" />
-  <entry md5="bcca8ae2aa5ac21d875b71021dc9762e" mtime="1412973425" name="PKGBUILD" size="1197" />
-  <entry md5="493b429e32dac50e9a49aac3d6a0268a" mtime="1412973427" name="_service" size="240" />
-  <entry md5="0f97479d9fcd4f222cf3ee2ff6cdf3c7" mtime="1411504886" name="smartgithg.desktop" size="328" />
-  <entry md5="13a92347f70a4ee9755ebd726f8b1bb3" mtime="1411504888" name="smartgithg.install" size="366" />
+<directory name="smartgithg" rev="4" srcmd5="897e578b5438146d80d2f5743a9db1b2" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="bb841fb39875a6b553e198c3ebba57af" />
+  <entry md5="dde0cfe8e2dd15c6904847323d0ea4fd" mtime="1416568509" name="PKGBUILD" size="1267" />
+  <entry md5="becc74838e3cbd876921d3d31cd43ed6" mtime="1416409562" name="_service" size="236" />
+  <entry md5="556ac2fc07705f0d37b17eb4b9765272" mtime="1416409564" name="smartgit.desktop" size="312" />
+  <entry md5="13a92347f70a4ee9755ebd726f8b1bb3" mtime="1416409565" name="smartgit.install" size="366" />
 </directory>
