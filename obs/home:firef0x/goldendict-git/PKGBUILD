@@ -2,7 +2,7 @@
 # Maintainer:  VirtualTam <virtualtam[at]myopera[dot]com>
 pkgname=goldendict-git
 _pkgname=goldendict
-pkgver=1.5.0.RC.428
+pkgver=1.5.0.RC.
 pkgrel=1
 pkgdesc="Feature-rich dictionary lookup program."
 arch=('i686' 'x86_64')
@@ -14,6 +14,9 @@ provides=('goldendict')
 replaces=('goldendict' 'goldendict-svn' 'goldendict-git-opt')
 source=("${_pkgname}-${pkgver}.tar.gz")
 sha256sums=(SKIP)
+
+COMPRESSXZ=(xz -c -z -T0 -)
+PACKAGER="Firef0x <firefgx#gmail.com>"
 
 prepare() {
   cd ${srcdir}/${_pkgname}-${pkgver}
