@@ -1,0 +1,5 @@
+<package name="vim-pkgbuild" project="home:firef0x">
+  <title>vim-pkgbuild</title>
+  <description>Vim plugin to help editing and working with PKGBUILD files</description>
+</package>
+

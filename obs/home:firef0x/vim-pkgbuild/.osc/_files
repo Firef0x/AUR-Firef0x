@@ -1,0 +1,6 @@
+<directory name="vim-pkgbuild" rev="2" srcmd5="1783f9bd2f50079ea249462926440e0b" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="ff78f314efcc7f48ea58cd225f6c92b6" />
+  <entry md5="897cfe32024c0f311d3a5661c81f5b68" mtime="1416910210" name="PKGBUILD" size="1319" />
+  <entry md5="aef589b71b97e9b2cf434b01a15a795e" mtime="1416909598" name="_service" size="455" />
+  <entry md5="33cbd819f9fa3e67d05b95e56693a150" mtime="1416909599" name="vimdoc.install" size="266" />
+</directory>
