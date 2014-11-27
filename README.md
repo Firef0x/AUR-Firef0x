@@ -12,6 +12,12 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: Baidu Pan client for Linux Desktop users
   *  描述: 百度网盘的 Linux 桌面客户端
   *  Version: 3.5.1 (Outdated)
+*  [Beyond Compare][20]
+  *  `yaourt -S bcompare3`
+  *  [Official Page][21]
+  *  Description: A data comparison utility to compare, sync, and merge files and folders
+  *  描述: 一个数据比较工具，可用于比较、同步及合并文件与文件夹
+  *  Version: 3.3.13.18981
 *  [Brand-new Universal loadeR from Grub][4]
   *  `yaourt -S burg-bios-bzr`
   *  [Official Page][5]
@@ -75,3 +81,5 @@ Short URL of this repository is [http://git.io/au][2].
 [17]: https://aur.archlinux.org/packages/myeclipse-spring/
 [18]: https://aur.archlinux.org/packages/vim-pkgbuild/
 [19]: https://github.com/Firef0x/PKGBUILD.vim
+[20]: https://aur.archlinux.org/packages/bcompare3/
+[21]: http://www.scootersoftware.com/
