@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">www.scootersoftware.com</param>
+    <param name="protocol">http</param>
+    <param name="path">/bcompare-3.3.13.18981.tar.gz</param>
+  </service>
+</services>
