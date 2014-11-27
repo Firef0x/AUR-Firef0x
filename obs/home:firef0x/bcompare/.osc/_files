@@ -1,6 +1,6 @@
-<directory name="bcompare" rev="4" srcmd5="1ce4d6086b69cdc375bf4a04bb897729" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="87b56733f8dea7b31bcd19552b0ad71a" />
-  <entry md5="37c23b41070b7c4b5121cd551e9e84fd" mtime="1415819716" name="PKGBUILD" size="3240" />
-  <entry md5="da65475df850844805abaad4a64b1f9d" mtime="1415818621" name="_service" size="223" />
+<directory name="bcompare" rev="5" srcmd5="1acafdcce8a2443c62386b587d132fd6" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="96e96bdc5b57dc9f593a07385e19eae8" />
+  <entry md5="2bc148d9d3c6d71fae15cce251e956f3" mtime="1417104011" name="PKGBUILD" size="3240" />
+  <entry md5="786485d823467eac5644287f26ef0248" mtime="1417104013" name="_service" size="223" />
   <entry md5="f5370ed5aa8e9168dfb3f528da5df19a" mtime="1415818631" name="bcompare.install" size="268" />
 </directory>
