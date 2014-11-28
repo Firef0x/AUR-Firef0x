@@ -40,7 +40,7 @@ Short URL of this repository is [http://git.io/au][2].
   *  [Discussion Thread (Chinese)][12]
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
-  *  Version: 33.0
+  *  Version: 34.0
 *  [Sublime Text Dev version with Input Method Fix][13]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][14]
@@ -58,7 +58,7 @@ Short URL of this repository is [http://git.io/au][2].
 *  [Vim PKGBUILD.vim][18]
   *  `yaourt -S vim-pkgbuild`
   *  [Official Page][19]
-  *  Description: Vim plugin to help editing and working with PKGBUILD files
+  *  Description: A Vim plugin to help editing and working with PKGBUILD files
   *  描述: 一个协助创建和编辑 PKGBUILD 文件的 Vim 插件
   *  Version: 0.1
 
