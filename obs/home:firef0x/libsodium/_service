@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="host">download.dnscrypt.org</param>
     <param name="protocol">http</param>
-	<param name="path">/libsodium/releases/libsodium-1.0.0.tar.gz</param>
+	<param name="path">/libsodium/releases/libsodium-1.0.1.tar.gz</param>
   </service>
 </services>

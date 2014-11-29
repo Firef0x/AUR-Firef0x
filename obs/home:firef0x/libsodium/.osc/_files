@@ -1,5 +1,5 @@
-<directory name="libsodium" rev="1" srcmd5="ac8ca6c56310a61ed6980d1fa0f35ca3" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="f40fa12a9f2316a5d1ecd600376934f6" />
-  <entry md5="9304b32b22385cdbfd727203011f644b" mtime="1411837629" name="PKGBUILD" size="1060" />
-  <entry md5="64e01699a3d3b85c2a58f3e47c131914" mtime="1411837631" name="_service" size="232" />
+<directory name="libsodium" rev="2" srcmd5="fa95c4361794038149e2fee381a7ed62" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="f293e4d20ad1e45d202aefdb29758b82" />
+  <entry md5="935ef956d3c341610ed9555b37d20636" mtime="1417280884" name="PKGBUILD" size="1020" />
+  <entry md5="e2eeea1d6cfd2e91771289386790b10b" mtime="1417280885" name="_service" size="232" />
 </directory>
