@@ -1,0 +1,5 @@
+<package name="python-powerline-git" project="home:firef0x">
+  <title>python-powerline-git</title>
+  <description>The ultimate statusline/prompt utility.</description>
+</package>
+

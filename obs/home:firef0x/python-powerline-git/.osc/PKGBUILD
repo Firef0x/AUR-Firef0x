@@ -1,0 +1,52 @@
+# Maintainer: Kim Silkebækken <kim.silkebaekken+aur@gmail.com>
+
+_gitname=powerline
+_gitbranch=develop
+pkgname="python-${_gitname}-git"
+pkgdesc='The ultimate statusline/prompt utility.'
+pkgver=1885.f293d6f
+pkgrel=1
+url="https://github.com/Lokaltog/${_gitname}"
+license=('MIT')
+arch=('any')
+depends=('python>=3.2')
+optdepends=('python-psutil: improved system information'
+            'python-pygit2: improved git support'
+            'zsh: better shell prompt')
+            # 'gvim: vim compiled with Python support')
+makedepends=('git' 'python-setuptools')
+conflicts=('python2-powerline-git')
+install="${_gitname}.install"
+source=("${_gitname}-${pkgver}.tar.gz"
+        "${install}")
+sha256sums=('SKIP'
+            'e8ab7fb51ac7244bfad973a999c9333ba4334fa391aa890489cf8c8f1211c94f')
+
+COMPRESSXZ=(xz -c -z -T0 -)
+PACKAGER="Firef0x <firefgx#gmail.com>"
+
+package() {
+  cd "${_gitname}-${pkgver}"
+
+	python setup.py install --root="${pkgdir}" --optimize=1
+
+	# Fonts
+	install -dm755 "${pkgdir}/etc/fonts/conf.d"
+	install -Dm644 "font/PowerlineSymbols.otf" "${pkgdir}/usr/share/fonts/OTF/PowerlineSymbols.otf"
+	install -Dm644 "font/10-powerline-symbols.conf" "${pkgdir}/etc/fonts/conf.avail/10-powerline-symbols.conf"
+	ln -s "../conf.avail/10-powerline-symbols.conf" "${pkgdir}/etc/fonts/conf.d/10-powerline-symbols.conf"
+
+	# # Vim Plugin
+	# install -Dm644 "powerline/bindings/vim/plugin/powerline.vim" "${pkgdir}/usr/share/vim/vimfiles/plugin/powerline.vim"
+
+	# Zsh Plugin
+	install -Dm644 "powerline/bindings/zsh/powerline.zsh" "${pkgdir}/usr/share/zsh/site-contrib/powerline.zsh"
+
+	# Tmux Configuration
+	install -Dm644 "powerline/bindings/tmux/powerline.conf" "${pkgdir}/usr/share/tmux/powerline.conf"
+
+	# License
+	install -Dm644 "LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+
+  pkgrel=1
+}
