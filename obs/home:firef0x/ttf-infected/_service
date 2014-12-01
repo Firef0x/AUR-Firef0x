@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">fc05.deviantart.net</param>
+    <param name="protocol">http</param>
+    <param name="path">/fs71/f/2009/360/3/3/INFECTED_Font_by_asianpride7625.zip</param>
+  </service>
+</services>
