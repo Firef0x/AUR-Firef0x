@@ -41,6 +41,12 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
   *  Version: 34.0
+*  [INFECTED Font][22]
+  *  `yaourt -S ttf-infected`
+  *  [Official Page][23]
+  *  Description: Free font which is infectiously wicked and will deliver an impact
+  *  描述: 一个充满邪恶的能带来影响的免费字体
+  *  Version: 20091226
 *  [Sublime Text Dev version with Input Method Fix][13]
   *  `yaourt -S sublime-text-dev-imfix`
   *  [Official Page][14]
@@ -83,3 +89,5 @@ Short URL of this repository is [http://git.io/au][2].
 [19]: https://github.com/Firef0x/PKGBUILD.vim
 [20]: https://aur.archlinux.org/packages/bcompare3/
 [21]: http://www.scootersoftware.com/
+[22]: https://aur.archlinux.org/packages/ttf-infected/
+[23]: http://asianpride7625.deviantart.com/art/INFECTED-Font-148051273
