@@ -36,4 +36,9 @@
   <package name="urlgrabber" state=" " />
   <package name="osc" state=" " />
   <package name="fcitx-sogoupinyin" state=" " />
+  <package name="vim-pkgbuild" state=" " />
+  <package name="ttf-aller-std" state=" " />
+  <package name="bcompare3" state=" " />
+  <package name="python-powerline-git" state=" " />
+  <package name="ttf-infected" state=" " />
 </project>
