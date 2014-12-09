@@ -1,0 +1,8 @@
+<services>
+  <service name="download_url">
+    <param name="host">eclipse-color-theme.github.io</param>
+    <param name="protocol">http</param>
+    <param name="path">/update/eclipse-color-theme-update-site.zip</param>
+    <param name="filename">eclipse-eclipsecolortheme.zip</param>
+  </service>
+</services>
