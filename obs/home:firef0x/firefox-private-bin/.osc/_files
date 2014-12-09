@@ -1,5 +1,5 @@
-<directory name="firefox-private-bin" rev="2" srcmd5="e90ae9e44f664aa31faa4200099d403f" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="b165ce06405aa91a00e2d85f39edafd8" />
+<directory name="firefox-private-bin" rev="4" srcmd5="27c783aac10b640a906460533151e950" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="8ea721d020fb2fc0e89a432c352f12c3" />
   <entry md5="2c33a28d0fd6b94bffe717df9ca6a236" mtime="1413452152" name="128.png" size="17225" />
   <entry md5="ccf618ebec94f98741cbf99ff5c89af6" mtime="1413452154" name="16.png" size="829" />
   <entry md5="bc3a02fbde6efb2c2bf8c28399345e23" mtime="1413452157" name="192.png" size="30788" />
@@ -10,8 +10,8 @@
   <entry md5="b24fd5bc7acbf051c80cecf97b1929ba" mtime="1413452169" name="384.png" size="78972" />
   <entry md5="29e9295bf32d16560103327cbdacbe45" mtime="1413452171" name="48.png" size="4096" />
   <entry md5="e8dc544804a3e5033e9f5f18c9e7c2d4" mtime="1413452174" name="64.png" size="6081" />
-  <entry md5="5c0b7b1f04ddb94fc4e88a8c71e1f2eb" mtime="1417202908" name="PKGBUILD" size="4172" />
-  <entry md5="f4f0a438e1506f8643258a9fda9afa55" mtime="1413452181" name="README.md" size="941" />
+  <entry md5="d6bb7ccfbce761e06e7647182ca327a6" mtime="1418149356" name="PKGBUILD" size="4840" />
+  <entry md5="2de50c02e2d3092e57dff464feac85b7" mtime="1417813432" name="README.md" size="960" />
   <entry md5="aacfb6e478a156805377aba1d5acb749" mtime="1417202910" name="_service" size="285" />
   <entry md5="7541710086c2b4f45da7268c137ed708" mtime="1413452185" name="firefox-private-bin.install" size="180" />
   <entry md5="6174396b4788deffa399db3f6f010a94" mtime="1413452187" name="firefox.desktop" size="4384" />

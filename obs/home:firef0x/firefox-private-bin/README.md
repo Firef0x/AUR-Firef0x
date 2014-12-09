@@ -1,4 +1,4 @@
-### Firefox 33.0 for Linux 自编译版:
+### Firefox 34.0 for Linux 自编译版:
 
 1. 使用`gcc O3 SSE2`编译参数.
 2. BetterPGO编译.
@@ -12,9 +12,9 @@
 
 ### 更新说明:
 
-2014-10-13更新：
+2014-12-04更新：
 
-1. 支持libgstreamer.
+1. gcc4.8.2 -O3编译,支持libgstreamer.
 2. 加入了一个MOZILLA_DISABLE_PLUGINS环境变量(设为1时禁止插件启动,同步Iceweasel特性)
 3. 修改包名为firefox-private,以防止linux发行版滚动更新时被覆盖.
    (如需卸载,请使用sudo dpkg -r firefox-private)
