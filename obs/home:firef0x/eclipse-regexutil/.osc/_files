@@ -1,5 +1,5 @@
-<directory name="eclipse-regexutil" rev="1" srcmd5="a8ed3c35311c6ad23dcc5d8392fe6b89" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="60f3178c58d2861152b5ab22bf75e73f" />
-  <entry md5="001555778a5434a19c27dadfebb20e14" mtime="1411936441" name="PKGBUILD" size="699" />
+<directory name="eclipse-regexutil" rev="2" srcmd5="ab9801c9eea7f370dd6543824beb6323" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="45ffc3584e95199085a61268996f71ae" />
+  <entry md5="183cf3cf389df2b1f3e118687e4abfec" mtime="1418454670" name="PKGBUILD" size="960" />
   <entry md5="b32b5afc343593ac20aa19a0d5b86287" mtime="1411936444" name="_service" size="258" />
 </directory>
