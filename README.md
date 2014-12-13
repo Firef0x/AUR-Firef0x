@@ -34,6 +34,12 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: A platform used to enrich the editors in Eclipse by coloring the brackets and showing automatic comments on brackets closing
   *  描述: 在 Eclipse 中增强编辑器的功能，主要有彩色化括号及在括号闭合处显示自动注释
   *  Version: 1.2.0
+*  [Eclipse RegExUtil][24]
+  *  `yaourt -S eclipse-regexutil`
+  *  [Official Page][25]
+  *  Description: Eclipse plugin for testing/editing regular expressions flavor of the Java standard API
+  *  描述: 在 Eclipse 中测试/编辑 Java 标准 API 格式 (即 java.util.regex) 的正则表达式
+  *  Version: 1.2.4
 *  [Firefox Private][10]
   *  `yaourt -S firefox-private-bin`
   *  [Official Page][11]
@@ -91,3 +97,5 @@ Short URL of this repository is [http://git.io/au][2].
 [21]: http://www.scootersoftware.com/
 [22]: https://aur.archlinux.org/packages/ttf-infected/
 [23]: http://asianpride7625.deviantart.com/art/INFECTED-Font-148051273
+[24]: https://aur.archlinux.org/packages/eclipse-regexutil/
+[25]: http://myregexp.com/eclipsePlugin.html
