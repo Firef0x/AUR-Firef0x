@@ -53,8 +53,8 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: Free font which is infectiously wicked and will deliver an impact
   *  描述: 一个充满邪恶的能带来影响的免费字体
   *  Version: 20091226
-*  [Sublime Text Dev version with Input Method Fix][13]
-  *  `yaourt -S sublime-text-dev-imfix`
+*  [Sublime Text Development Build][13]
+  *  `yaourt -S sublime-text-dev-imfix` or `yaourt -S sublime-text-dev-zh-cn`
   *  [Official Page][14]
   *  Description: A cross-platform popular text, HTML and source code editor
   *  描述: 一个跨平台流行的文本、HTML与源代码编辑器
@@ -86,7 +86,7 @@ Short URL of this repository is [http://git.io/au][2].
 [10]: https://aur.archlinux.org/packages/firefox-private-bin/
 [11]: https://www.mozilla.org/firefox/
 [12]: http://bbs.kafan.cn/thread-1611465-1-1.html
-[13]: https://aur.archlinux.org/packages/sublime-text-dev-imfix/
+[13]: https://aur.archlinux.org/pkgbase/sublime-text-dev-imfix/
 [14]: http://www.sublimetext.com/3
 [15]: https://aur.archlinux.org/packages/myeclipse-pro/
 [16]: http://www.myeclipseide.com/
