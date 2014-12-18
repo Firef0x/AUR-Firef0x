@@ -9,4 +9,29 @@
     <param name="protocol">http</param>
     <param name="path">/sublime_text_3_build_3065_x64.tar.bz2</param>
   </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/i686/libsublime-imfix.i686.so</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/x86_64/libsublime-imfix.x86_64.so</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/i686/sublime_text.i686</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/x86_64/sublime_text.x86_64</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/any/Default.sublime-package</param>
+  </service>
 </services>
