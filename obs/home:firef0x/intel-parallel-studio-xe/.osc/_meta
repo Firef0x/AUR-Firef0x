@@ -1,8 +1,0 @@
-<package name="intel-parallel-studio-xe" project="home:firef0x">
-  <title>intel-parallel-studio-xe</title>
-  <description>Intel C++ C and fortran compiler - Intel Parallel Studio XE - intel compiler - icc icpc ifort ipp mkl</description>
-  <build>
-    <disable/>
-  </build>
-</package>
-
