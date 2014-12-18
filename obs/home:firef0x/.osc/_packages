@@ -26,7 +26,6 @@
   <package name="eclipse-anyedittools" state=" " />
   <package name="eclipse-regexutil" state=" " />
   <package name="aafm-git" state=" " />
-  <package name="intel-parallel-studio-xe" state=" " />
   <package name="oh-my-zsh-git" state=" " />
   <package name="xz-git" state=" " />
   <package name="pointdownload" state=" " />
@@ -41,4 +40,6 @@
   <package name="bcompare3" state=" " />
   <package name="python-powerline-git" state=" " />
   <package name="ttf-infected" state=" " />
+  <package name="burg-efi-x86_64-bzr" state=" " />
+  <package name="eclipse-eclipsecolortheme" state=" " />
 </project>

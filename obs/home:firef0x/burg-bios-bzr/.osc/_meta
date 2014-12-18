@@ -1,5 +1,7 @@
 <package name="burg-bios-bzr" project="home:firef0x">
   <title>burg-bios-bzr</title>
-  <description>Brand-new Universal loadeR from Grub2 - Built for i386 BIOS for Arch Linux</description>
+  <description>Burg is a brand-new boot loader based on GRUB. It uses a new object format which allows it to be built in a wider range of OS, including Linux/Windows/OSX/Solaris/FreeBSD, etc. It also has a highly configurable menu system which works in both text and graphic mode.
+
+Built for i386 BIOS for Arch Linux.</description>
 </package>
 
