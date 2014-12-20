@@ -54,7 +54,7 @@ Short URL of this repository is [http://git.io/au][2].
   *  描述: 一个充满邪恶的能带来影响的免费字体
   *  Version: 20091226
 *  [Sublime Text Development Build][13]
-  *  `yaourt -S sublime-text-dev-imfix` or `yaourt -S sublime-text-dev-zh-cn`
+  *  Include in [Arch Linux Chinese Community Repository][26]
   *  [Official Page][14]
   *  Description: A cross-platform popular text, HTML and source code editor
   *  描述: 一个跨平台流行的文本、HTML与源代码编辑器
@@ -99,3 +99,4 @@ Short URL of this repository is [http://git.io/au][2].
 [23]: http://asianpride7625.deviantart.com/art/INFECTED-Font-148051273
 [24]: https://aur.archlinux.org/packages/eclipse-regexutil/
 [25]: http://myregexp.com/eclipsePlugin.html
+[26]: https://wiki.archlinux.org/index.php/Unofficial_user_repositories#archlinuxcn
