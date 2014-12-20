@@ -6,7 +6,7 @@ pkgname="python-${_gitname}-git"
 pkgdesc='The ultimate statusline/prompt utility.'
 pkgver=1885.f293d6f
 pkgrel=1
-url="https://github.com/Lokaltog/${_gitname}"
+url="https://github.com/powerline/${_gitname}"
 license=('MIT')
 arch=('any')
 depends=('python>=3.2')
