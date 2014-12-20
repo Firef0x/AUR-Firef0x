@@ -28,7 +28,6 @@
   <package name="aafm-git" state=" " />
   <package name="oh-my-zsh-git" state=" " />
   <package name="xz-git" state=" " />
-  <package name="pointdownload" state=" " />
   <package name="firefox-private-bin" state=" " />
   <package name="eclipse-checkstyle" state=" " />
   <package name="python2-m2crypto" state=" " />
