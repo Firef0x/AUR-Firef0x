@@ -1,5 +1,5 @@
-<directory name="ffmpeg" rev="3" srcmd5="4b08b7753d0706a9d62a8ead39afd043" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="f45956b95c9ddd478f748811adf0e13b" />
-  <entry md5="c796af2cad978544aed0f0d882a4096f" mtime="1413457405" name="PKGBUILD" size="2066" />
-  <entry md5="c295f1132e99f63017f1dc01363a7d4d" mtime="1412950623" name="_service" size="405" />
+<directory name="ffmpeg" rev="5" srcmd5="21ddc6e0803245f2e2933282ed9e18f4" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="60990a0fa5d91817ddb9b972e8f3aa3c" />
+  <entry md5="5fbf6e0ddb8a9792537ce7192044b8af" mtime="1419075886" name="PKGBUILD" size="2117" />
+  <entry md5="c8e4db2e5f74d7f8fd4012747c3ee63f" mtime="1419075887" name="_service" size="405" />
 </directory>

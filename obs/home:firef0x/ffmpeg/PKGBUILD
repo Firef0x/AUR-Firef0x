@@ -1,12 +1,12 @@
-# $Id$
+# $Id: PKGBUILD 227638 2014-12-16 06:13:15Z bpiotrowski $
 # Maintainer:  Ionut Biru <ibiru@archlinux.org>
 # Maintainer:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 # Contributor: Paul Mattal <paul@archlinux.org>
 
 pkgname=ffmpeg
-pkgver=2.4.2
-pkgrel=2
+pkgver=2.5.1
+pkgrel=1
 epoch=1
 pkgdesc='Complete and free Internet live audio and video broadcasting solution'
 arch=('i686' 'x86_64')
@@ -20,7 +20,7 @@ depends=(
 )
 makedepends=('libvdpau' 'yasm')
 source=(http://ffmpeg.org/releases/$pkgname-$pkgver.tar.bz2{,.asc})
-md5sums=('9e6163b09b7b9331b834d80874c2c0ff'
+md5sums=('ad3b4c189e9a7d43ae54c52d409a43ef'
          'SKIP')
 
 build() {
