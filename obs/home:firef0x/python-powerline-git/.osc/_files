@@ -1,6 +1,6 @@
-<directory name="python-powerline-git" rev="2" srcmd5="ce09a435a00db7270a2574bd3fc0ac76" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="7efc5978329b115b690d24eb54717711" />
-  <entry md5="3a3756cd0933de5b59d0ae7e97029447" mtime="1419074583" name="PKGBUILD" size="1800" />
-  <entry md5="dc716acf03d58f40882b2d192e5b3883" mtime="1419074600" name="_service" size="488" />
-  <entry md5="77d68104f58af290e8c8e9c1abe4c95f" mtime="1417279595" name="powerline.install" size="969" />
+<directory name="python-powerline-git" rev="4" srcmd5="e60251f6a08faf696daa744ca389f48a" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="a4a101270c174747822db740c5a6eee4" />
+  <entry md5="103a591ca1fb8bfb4bdb131bdcedddc9" mtime="1419616055" name="PKGBUILD" size="1958" />
+  <entry md5="f639263b3dfba392b4738af127460641" mtime="1419616059" name="_service" size="488" />
+  <entry md5="1e88fc8a532e2f56a5e0729f6789a33a" mtime="1419616061" name="powerline.install" size="966" />
 </directory>

@@ -4,7 +4,7 @@
 	<param name="url">git://github.com/powerline/powerline.git</param>
     <param name="revision">develop</param>
 	<param name="versionformat">%h</param>
-	<param name="versionprefix">2018</param>
+	<param name="versionprefix">2020</param>
     <param name="filename">powerline</param>
   </service>
   <service name="recompress">
