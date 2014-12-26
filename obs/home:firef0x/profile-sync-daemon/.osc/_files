@@ -1,6 +1,6 @@
-<directory name="profile-sync-daemon" rev="4" srcmd5="2f97226e4bfccf8be52c6baa7a68159c" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="c6e87bb5572c75a65b4a27b18da5b3d1" />
-  <entry md5="4d734fdf860cd579708d3fa08a26495c" mtime="1418913105" name="PKGBUILD" size="960" />
-  <entry md5="668ed07c87f23ad92750e422f0be235a" mtime="1418913111" name="_service" size="242" />
+<directory name="profile-sync-daemon" rev="7" srcmd5="2cbf8ce38fae13bb2b2412f43e547d49" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="48fae449aa1df27555922f622b3d86a5" />
+  <entry md5="1e8c7eb018ff8368d5391f7cdae64efe" mtime="1419615028" name="PKGBUILD" size="963" />
+  <entry md5="1ff9ec459ddec5e7a9ead4824bb5ff75" mtime="1419615030" name="_service" size="242" />
   <entry md5="6aa17e4152a9552ef8370f783be9bb1c" mtime="1411790924" name="psd.install" size="2422" />
 </directory>
