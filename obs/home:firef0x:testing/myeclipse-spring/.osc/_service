@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="host">downloads.myeclipseide.com</param>
     <param name="protocol">http</param>
-    <param name="path">/downloads/products/eworkbench/2014/installers/myeclipse-spring-2014-GA-offline-installer-linux.run</param>
+    <param name="path">/downloads/products/eworkbench/2013/installers/myeclipse-spring-2013-SR2-offline-installer-linux.run</param>
   </service>
 </services>

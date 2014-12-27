@@ -4,9 +4,9 @@
 pkgname=myeclipse-spring
 _realname=myeclipseforspring
 _shortcutname=MyEclipse_for_Spring
-pkgver=12.0.0
-_internal_pkgver=2014-GA
-_datever=12.0.0.me201311281640
+pkgver=11.0.2
+_internal_pkgver=2013-SR2
+_datever=11.0.1.me201309011543
 pkgrel=1
 pkgdesc="A commercially available Java EE and Ajax IDE, built upon the Eclipse platform and integrates both proprietary and open source code into the development environment. Spring Edition."
 arch=('i686' 'x86_64')
@@ -18,17 +18,17 @@ depends=('gtk2'
          'webkitgtk2'
          'libxtst'
          'java-environment')
-makedepends=('which')
+makedepends=('xdg-user-dirs')
 optdepends=('nss>=3.12.2: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor'
             'gconf: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor'
             'libgnome-keyring: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor')
 conflicts=('xulrunner')
 install=${pkgname}.install
-source=("http://downloads.myeclipseide.com/downloads/products/eworkbench/2014/installers/${pkgname}-${_internal_pkgver}-offline-installer-linux.run"
+source=("http://downloads.myeclipseide.com/downloads/products/eworkbench/2013/installers/${pkgname}-${_internal_pkgver}-offline-installer-linux.run"
         "${_realname}.sh"
         "response"
         "MyEclipse_for_Spring.desktop")
-md5sums=('2058f2ec88892ab9bc650c06ca7cf68a'
+md5sums=('7c50fe440a7801fa0f33bf70c730178c'
          'b38e37af50376b1a3462cb0801289bb2'
          '9433ef5fc08bc80966eda4267f13af05'
          'b5bbfcbe9570b83486a8f1c4d573f66d')
@@ -54,6 +54,9 @@ build() {
   if [ "$CARCH" = "x86_64" ]; then
   	sed -i "s/x86/x86_64/" response
   fi
+
+  xdg-user-dirs-update
+  mkdir -p ~/.local/share/applications
 
   # Since this file will influence default myeclipse install folder, it should be renamed.
   # if [ -w ~/.deliverycenter.installs ]; then
@@ -84,6 +87,7 @@ build() {
   cd ~
   echo `pwd`
   echo `ls -a`
+  find . -type f -follow -print
 
   # Remove Desktop Shortcuts
   # cp "/home/abuild/.local/share/applications/${_shortcutname}.desktop" "${srcdir}/${_shortcutname}"

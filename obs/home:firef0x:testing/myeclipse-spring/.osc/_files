@@ -1,8 +1,8 @@
-<directory name="myeclipse-spring" rev="1" srcmd5="2c6d2d4cf7e646e25d0ec4f22b130633" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="bae55a4019a3bcfb7d303391c6431883" />
+<directory name="myeclipse-spring" rev="4" srcmd5="688b0bf73fa0dcc9b5e23b4bb0d41f1c" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="008e029f68a1dc221aca47b3ca585d82" />
   <entry md5="b5bbfcbe9570b83486a8f1c4d573f66d" mtime="1415626396" name="MyEclipse_for_Spring.desktop" size="878" />
-  <entry md5="96e1aae6ebfd85b52d6684a370a0b2b4" mtime="1418146646" name="PKGBUILD" size="5870" />
-  <entry md5="61f6a7b3c9c749cd05c3040b97cc63e1" mtime="1411530642" name="_service" size="297" />
+  <entry md5="b1f94b1d1fa3a261f876a7161f82c41b" mtime="1419647902" name="PKGBUILD" size="5974" />
+  <entry md5="e287965418ac0de19fc19669b1d8bb6d" mtime="1419616626" name="_service" size="298" />
   <entry md5="1aff5b8999715da2c4c56eaf6f13dfaf" mtime="1411530643" name="myeclipse-spring.install" size="129" />
   <entry md5="b38e37af50376b1a3462cb0801289bb2" mtime="1411530644" name="myeclipseforspring.sh" size="115" />
   <entry md5="9433ef5fc08bc80966eda4267f13af05" mtime="1411530646" name="response" size="165" />
