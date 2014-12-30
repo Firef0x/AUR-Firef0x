@@ -1,0 +1,5 @@
+<package name="burg-themes" project="home:firef0x">
+  <title>burg-themes</title>
+  <description>Themes for Burg Bootloader</description>
+</package>
+

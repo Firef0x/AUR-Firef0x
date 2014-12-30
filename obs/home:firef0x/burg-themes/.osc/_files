@@ -1,0 +1,6 @@
+<directory name="burg-themes" rev="1" srcmd5="df141ac9660a95675d40e70a58a5db18" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="861738a8a891e5acfba94d9a325dbbc2" />
+  <entry md5="cc5011c2d4a84a8975bc4dc2c10a431d" mtime="1419956707" name="PKGBUILD" size="793" />
+  <entry md5="9c6fc0e0defbc54fb13c1a0bec6d33d8" mtime="1419956709" name="_service" size="221" />
+  <entry md5="ab8075854685c33fa7ff7808e77c6b0e" mtime="1419956710" name="burg-themes.install" size="289" />
+</directory>

@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="host">burg.googlecode.com</param>
+    <param name="protocol">http</param>
+    <param name="path">/files/burg-theme-20100623.zip</param>
+  </service>
+</services>
