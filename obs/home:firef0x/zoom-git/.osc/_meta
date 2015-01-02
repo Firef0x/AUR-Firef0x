@@ -1,0 +1,7 @@
+<package name="zoom-git" project="home:firef0x">
+  <title>zoom-git</title>
+  <description>Quickly open CLI search results in your favorite editor!
+
+Do you like to search through code using ag, ack, or grep? Good! This tool is for you! zoom adds some convenience to ag/ack/grep by allowing you to quickly open your search results in your editor of choice. When looking at large code-bases, it can be a pain to have to scroll to find the filename of each result. zoom prints a tag number in front of each result that ag/ack/grep outputs. Then you can quickly open that tag number with zoom to jump straight to the source. zoom is even persistent across all your sessions! You can search in one terminal and jump to a tag in another terminal from any directory!</description>
+</package>
+

@@ -1,0 +1,48 @@
+# Maintainer  : Firef0x <Firefgx (at} gmail {dot) com>
+# Contributor : Firef0x <Firefgx (at} gmail {dot) com>
+
+_pkgname=zoom
+
+pkgname=zoom-git
+pkgver=20141231.7917f83
+pkgrel=1
+pkgdesc="Quickly open CLI search results in your favorite editor"
+arch=('any')
+url='https://bitbucket.org/mjwhitta/zoom'
+license=('unknown')
+depends=('findutils' 'ruby' 'sed')
+makedepends=('git')
+optdepends=('ack: as search backend'
+            'grep: as search backend'
+            'the_silver_searcher: as search backend'
+            'vim: for opening search result in default editor')
+# install="${pkgname}.install"
+
+source=("${_pkgname}-${pkgver}.tar.gz")
+sha256sums=('SKIP')
+
+COMPRESSXZ=(xz -c -z -T0 -)
+PACKAGER="Firef0x <firefgx#gmail.com>"
+
+package() {
+  cd "${_pkgname}-${pkgver}"
+
+  # Install bin file
+  install -dm755 "${pkgdir}/usr/bin"
+  install -Dm755 zoom.rb "${pkgdir}/usr/bin/z"
+
+  # Make symbolic links
+  ln -sf "/usr/bin/z" "${pkgdir}/usr/bin/zc"
+  ln -sf "/usr/bin/z" "${pkgdir}/usr/bin/zf"
+  ln -sf "/usr/bin/z" "${pkgdir}/usr/bin/zg"
+  ln -sf "/usr/bin/z" "${pkgdir}/usr/bin/zl"
+  ln -sf "/usr/bin/z" "${pkgdir}/usr/bin/zr"
+
+  # Install documentation
+  install -dm755 "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+
+  pkgrel=1
+}
+
+# vim:set ts=2 sw=2 et:
