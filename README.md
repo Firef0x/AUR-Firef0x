@@ -73,6 +73,11 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: A Vim plugin to help editing and working with PKGBUILD files
   *  描述: 一个协助创建和编辑 PKGBUILD 文件的 Vim 插件
   *  Version: 0.1
+*  [Zoom][27]
+  *  `yaourt -S zoom-git`
+  *  [Official Page][28]
+  *  Description: Quickly open CLI search results in your favorite editor
+  *  描述: 快速地在您最喜爱的文本编辑器上打开命令行界面的搜索结果
 
 [1]:  https://build.opensuse.org/project/show/home:firef0x
 [2]:  https://github.com/Firef0x/AUR-Firef0x
@@ -100,3 +105,5 @@ Short URL of this repository is [http://git.io/au][2].
 [24]: https://aur.archlinux.org/packages/eclipse-regexutil/
 [25]: http://myregexp.com/eclipsePlugin.html
 [26]: https://wiki.archlinux.org/index.php/Unofficial_user_repositories#archlinuxcn
+[27]: https://aur.archlinux.org/packages/zoom-git/
+[28]: https://bitbucket.org/mjwhitta/zoom
