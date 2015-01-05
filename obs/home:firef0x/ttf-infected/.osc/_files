@@ -1,6 +1,6 @@
-<directory name="ttf-infected" rev="1" srcmd5="7fa1f45433b9676b1e8dc4d660c98889" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="bfacb8650367829a559db6769b58a75d" />
-  <entry md5="e7e021e4094d0a34ecd3b6d7d5f34b73" mtime="1417451607" name="PKGBUILD" size="985" />
+<directory name="ttf-infected" rev="2" srcmd5="0e2ef30828ebb576f099a52f132eef5a" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="12004c8dc0283e24ee3c2283b3b6533f" />
+  <entry md5="3548fe4387750916c2dda358feb1ab6b" mtime="1420478013" name="PKGBUILD" size="987" />
   <entry md5="65c6ea9403d2a815642e6d02acdd6754" mtime="1417451611" name="_service" size="247" />
-  <entry md5="e1613a15fb2a8a1886192243adda0c1d" mtime="1417451613" name="ttf-infected.install" size="223" />
+  <entry md5="0a28ade637104a19dfdb5c29e22ae6d6" mtime="1420478015" name="ttf-infected.install" size="227" />
 </directory>
