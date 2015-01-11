@@ -1,6 +1,6 @@
-<directory name="aafm-git" rev="9" srcmd5="e3e8fa5375cab6ebbf0247e007f23230" vrev="9">
-  <serviceinfo code="succeeded" xsrcmd5="e549b6f393bfd23379ecc3f0daf1a5a3" />
-  <entry md5="ce1d8847f0ce8c387358aa721fc4cbd1" mtime="1412567772" name="PKGBUILD" size="595" />
+<directory name="aafm-git" rev="10" srcmd5="581ff51e20e064e36d6e0f8ff7060044" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="d5377d79d79623d8d73e771e8c1b654e" />
+  <entry md5="6b96b56a9b6369090aa6d5012acec3df" mtime="1420994093" name="PKGBUILD" size="616" />
   <entry md5="8527b840fb262b5fb964d9598944277c" mtime="1412567774" name="_service" size="393" />
   <entry md5="7541710086c2b4f45da7268c137ed708" mtime="1412352778" name="aafm-git.install" size="180" />
 </directory>
