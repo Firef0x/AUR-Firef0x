@@ -46,7 +46,7 @@ Short URL of this repository is [http://git.io/au][2].
   *  [Discussion Thread (Chinese)][12]
   *  Description: A free and open-source popular web browser
   *  描述: 一个自由、开源、流行的网络浏览器
-  *  Version: 34.0
+  *  Version: 35.0
 *  [INFECTED Font][22]
   *  `yaourt -S ttf-infected`
   *  [Official Page][23]
