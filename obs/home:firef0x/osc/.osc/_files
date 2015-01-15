@@ -1,5 +1,5 @@
-<directory name="osc" rev="1" srcmd5="d8fc5ed6720d607b40610f254280590a" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="eaad98d1bcfc653eb8dc706d9fa98c94" />
-  <entry md5="a1d5681278e73b67855284d2669dba5c" mtime="1415072336" name="PKGBUILD" size="1196" />
-  <entry md5="a458ad898f637050b2be741b287e88e1" mtime="1415072337" name="_service" size="219" />
+<directory name="osc" rev="2" srcmd5="9dd2df616482e613f5433d841197c921" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="a76df5f0aaf226cdf868780d25c14ef0" />
+  <entry md5="cbd8a767238cd024d251147ffb94109e" mtime="1421338477" name="PKGBUILD" size="1347" />
+  <entry md5="94267ce4ba08b93dc20f3a7093f787ba" mtime="1421338479" name="_service" size="219" />
 </directory>
