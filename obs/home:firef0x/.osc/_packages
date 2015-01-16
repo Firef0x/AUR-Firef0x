@@ -41,4 +41,7 @@
   <package name="ttf-infected" state=" " />
   <package name="burg-efi-x86_64-bzr" state=" " />
   <package name="eclipse-eclipsecolortheme" state=" " />
+  <package name="burg-themes" state=" " />
+  <package name="zoom-git" state=" " />
+  <package name="zsh-completion-osc" state=" " />
 </project>
