@@ -1,0 +1,5 @@
+<directory name="zsh-completion-osc" rev="2" srcmd5="15d79fb52ba4c34beb33ec2031b20faa" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="32f832308a046429cb1449ede70579f5" />
+  <entry md5="0cb59ae72e4bba53d7fab07d4a559ea9" mtime="1421398106" name="PKGBUILD" size="856" />
+  <entry md5="f428d98ad735590ac6e1c70ef5374d54" mtime="1421345798" name="_service" size="297" />
+</directory>

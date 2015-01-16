@@ -1,0 +1,8 @@
+<services>
+  <service name="download_url">
+    <param name="host">sourceforge.net</param>
+    <param name="protocol">http</param>
+    <param name="path">/p/zsh/code/ci/master/tree/Completion/openSUSE/Command/_osc?format=raw</param>
+    <param name="filename">_osc</param>
+  </service>
+</services>
