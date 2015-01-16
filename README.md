@@ -78,6 +78,11 @@ Short URL of this repository is [http://git.io/au][2].
   *  [Official Page][28]
   *  Description: Quickly open CLI search results in your favorite editor
   *  描述: 快速地在您最喜爱的文本编辑器上打开命令行界面的搜索结果
+*  [Zsh-completion-osc][29]
+  *  `yaourt -S zsh-completion-osc`
+  *  [Official Page][30]
+  *  Description: Z Shell completion scripts for osc(command line client for the openSUSE Build Service)
+  *  描述: osc ( openSUSE 构建服务的命令行客户端 ) 的 Z Shell 补全脚本
 
 [1]:  https://build.opensuse.org/project/show/home:firef0x
 [2]:  https://github.com/Firef0x/AUR-Firef0x
@@ -107,3 +112,5 @@ Short URL of this repository is [http://git.io/au][2].
 [26]: https://wiki.archlinux.org/index.php/Unofficial_user_repositories#archlinuxcn
 [27]: https://aur.archlinux.org/packages/zoom-git/
 [28]: https://bitbucket.org/mjwhitta/zoom
+[29]: https://aur.archlinux.org/packages/zsh-completion-osc/
+[30]: http://www.zsh.org/
