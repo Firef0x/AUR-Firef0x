@@ -3,7 +3,7 @@
     <param name="scm">git</param>
     <param name="url">http://git.tukaani.org/xz.git</param>
 	<param name="versionformat">g%h</param>
-	<param name="versionprefix">5.1.4beta.r18</param>
+	<param name="versionprefix">5.2.0.r11</param>
     <param name="filename">xz-git</param>
   </service>
   <service name="recompress">
