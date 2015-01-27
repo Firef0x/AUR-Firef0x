@@ -1,7 +1,7 @@
 <services>
   <service name="download_url">
-    <param name="host">downloads.myeclipseide.com</param>
+    <param name="host">downloads.genuitec.com</param>
     <param name="protocol">http</param>
-    <param name="path">/downloads/products/eworkbench/2014/installers/myeclipse-pro-2014-GA-offline-installer-linux.run</param>
+    <param name="path">/downloads/myeclipse/installers/me2015stable1.0/myeclipse-2015-stable-1.0-offline-installer-linux.run</param>
   </service>
 </services>

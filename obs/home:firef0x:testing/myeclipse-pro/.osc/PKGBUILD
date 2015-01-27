@@ -1,46 +1,43 @@
-# Maintainer: Firef0x <firefgx { at } gmail { dot } com>
-# Contributor: Firef0x <firefgx { at } gmail { dot } com>
+# Maintainer  : Firef0x <firefgx { at } gmail { dot } com>
+# Contributor : Firef0x <firefgx { at } gmail { dot } com>
+
+_realname=myeclipse
+_shortcutname=MyEclipse_2015
+_unshortcutname=Uninstall_MyEclipse_2015
+_runname="${_realname}-2015-stable-1.0-offline-installer-linux.run"
+_datever=13.0.0.me201501141551
 
 pkgname=myeclipse-pro
-_realname=myeclipse
-_shortcutname=MyEclipse_Professional
-pkgver=12.0.0
-_internal_pkgver=2014-GA
-_datever=12.0.0.me201311281640
+pkgver=13.0.0
 pkgrel=1
-pkgdesc="A set of integrated plugins to the eclipse platform, built on the eclipse classic distribution which includes basic java development tools"
+pkgdesc="A commercially available Java EE and Ajax IDE, built upon the Eclipse platform and integrates both proprietary and open source code into the development environment."
 arch=('i686' 'x86_64')
-url="http://www.myeclipseide.com/"
+url="https://www.genuitec.com/products/myeclipse/"
 license=('custom:GEULA')
 options=('!strip' 'emptydirs')
 depends=('gtk2'
          'unzip'
          'webkitgtk2'
-         'libxtst'
-         'java-environment')
-makedepends=('which')
+         'libxtst')
+makedepends=('java-environment')
 optdepends=('nss>=3.12.2: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor'
             'gconf: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor'
             'libgnome-keyring: for XULRunner 1.9.0.7 in MyEclipse Visual HTML Editor')
 conflicts=('xulrunner')
-install=${pkgname}.install
-source=("http://downloads.myeclipseide.com/downloads/products/eworkbench/2014/installers/${pkgname}-${_internal_pkgver}-offline-installer-linux.run"
-        "${_realname}.sh"
-        "response"
-        "MyEclipse_Professional.desktop")
-md5sums=('53b0ccce8beda3f813a4ddf419e843ee'
-         'b38e37af50376b1a3462cb0801289bb2'
-         '9433ef5fc08bc80966eda4267f13af05'
-         '542c28af400bbcfe444321510a43ba8e')
+# install=${pkgname}.install
+source=("http://downloads.genuitec.com/downloads/myeclipse/installers/me2015stable1.0/${_runname}"
+        "response")
+md5sums=('6101d843a4c8a7a1d76157b72b5fcca3'
+         '9433ef5fc08bc80966eda4267f13af05')
 
 COMPRESSXZ=(xz -c -z -T0 -)
 PACKAGER="Firef0x <firefgx#gmail.com>"
 
-# If you cannot download myeclipse, try DLAGENTS
+# If you cannot download MyEclipse, try DLAGENTS
 #DLAGENTS=("http::/usr/bin/curl -A 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)' -fLC - --retry 3 --retry-delay 3 -O --header 'Cookie: gpw_e24=h'")
 # If you don't want to compress the package at all, try PKGEXT
 #PKGEXT='.pkg.tar'
-_rmbinary=1
+_rmbinary=0
 _lndropins=1
 
 prepare() {
@@ -49,53 +46,69 @@ prepare() {
 }
 
 build() {
-
   # Judge Arch & Replace Unattended Configuration
   if [ "$CARCH" = "x86_64" ]; then
     sed -i "s/x86/x86_64/" response
   fi
 
-  # Since this file will influence default myeclipse install folder, it should be renamed.
-  # if [ -w ~/.deliverycenter.installs ]; then
-  #   mv "~/.deliverycenter.installs" "~/.deliverycenter.installs.original"
-  # fi
+  # Check for existence of user applications directory,
+  # so that the installer would create icons and desktop entries
+  if [ -d ~/.local/share/applications ]; then
+    :
+  else
+    mkdir -p ~/.local/share/applications
+  fi
+
+  # Since this file will influence default MyEclipse install directory, it should be renamed.
+  if [ -w ~/.deliverycenter.installs ]; then
+    mv "~/.deliverycenter.installs" "~/.deliverycenter.installs.original"
+  fi
 
   # Replace by actual path
   sed -i "s|INSTALLATION_FOLDER|${srcdir}/usr/share/${pkgname}|" response
 
   # Prepare to run install
-  cd "${srcdir}"
-  chmod a+x "${pkgname}-${_internal_pkgver}-offline-installer-linux.run"
+  chmod a+x "${_runname}"
 
   #Install MyEclipse
-  sh "./${pkgname}-${_internal_pkgver}-offline-installer-linux.run" --unattended ${srcdir}/response
+  sh "./${_runname}" --unattended ${srcdir}/response
   if [ $? -ne 0 ]; then
-    msg2 "Please make sure you have at least 1.3GB free space in /tmp and have turned on swap, then try it again."
+    error "Please make sure you have at least 1.3GB free space in /tmp and have turned on swap, then try it again."
     return 1
   fi
 
   # Restore this file to origin
-  # rm -f ~/.deliverycenter.installs
-  # if [ -w ~/.deliverycenter.installs.original ]; then
-  #   mv "~/.deliverycenter.installs.original" "~/.deliverycenter.installs"
-  # fi
+  rm -f ~/.deliverycenter.installs
+  if [ -w ~/.deliverycenter.installs.original ]; then
+    mv "~/.deliverycenter.installs.original" "~/.deliverycenter.installs"
+  fi
+
+  cd ~
+  echo `pwd`
+  find . -type f -follow -print
+  echo
+  cat /tmp/unattended.log
+
+  # Remove Desktop Shortcuts
+  cp ~/.local/share/applications/*.desktop "${srcdir}/"
+  # cp "/home/abuild/.local/share/applications/${_shortcutname}.desktop" "${srcdir}/${_shortcutname}"
+  # cp "/home/abuild/.local/share/applications/Uninstall_${_shortcutname}.desktop" "${srcdir}/${_shortcutname}"
 
   # Remove install log files & temp files
   # rm -f /tmp/unattended.log
   # rm -f /tmp/pulse-one-*.log
   # rm -f /tmp/MyEclipse*-support-*.zip
-
 }
 
 package() {
+  cd "usr/share/${pkgname}"
 
-  cd "${srcdir}/usr/share/${pkgname}"
-
-  # Remove Shipped-with Java environment and drop-in plugins' folder
+  # Remove shipped-with Java environment and drop-ins directory
   if [ ${_rmbinary} -eq 1 ]; then
     rm -rf binary
     sed -i "/^-vm$/{N;d}" \
     ${_realname}.ini
+    depends+=('java-environment')
   fi
 
   # if [ ${_lndropins} -eq 1 ]; then
@@ -121,10 +134,30 @@ package() {
   # # Python2 fix
   # sed -i 's|#!/usr/bin/python|#!/usr/bin/python2|' \
   # plugins/org.apache.ant_1.8.4.v201303080030/bin/runant.py
+  install -Dm644 "plugins/org.apache.ant_1.9.2.v201404171502/bin/runant.py" \
+    "${pkgdir}/runant.py"
+
+  sed -i "s|/home/[^\/]*/.local/share/applications|/usr/share/applications|g" \
+    configuration/com.genuitec.pulse.client.delivery.install.meta/shortcuts.properties
+
+  install -Dm644 "configuration/com.genuitec.pulse.client.delivery.install.meta/shortcuts.properties" \
+    "${pkgdir}/shortcuts.properties"
+
+  install -Dm644 "${_realname}.ini" \
+    "${pkgdir}/${_realname}.ini"
+
+  cp -a p2/org.eclipse.equinox.p2.engine/profileRegistry/ "${pkgdir}/"
 
   # Install icons and desktop shortcuts
   # install -d -m755 "${pkgdir}/usr/share/applications"
-  # install -m644 "${srcdir}/${_shortcutname}.desktop" "${pkgdir}/usr/share/applications/${_shortcutname}.desktop"
+  install -m644 "configuration/com.genuitec.pulse.client.delivery.install.meta/561682515-2643.png" \
+    "${pkgdir}/${_shortcutname}.png"
+  install -m644 "configuration/com.genuitec.pulse.client.delivery.install.meta/561682515-2643.xpm" \
+    "${pkgdir}/${_shortcutname}.xpm"
+  install -m644 "configuration/com.genuitec.pulse.client.delivery.install.meta/1706109892-13916.png" \
+    "${pkgdir}/${_unshortcutname}.png"
+  install -m644 "configuration/com.genuitec.pulse.client.delivery.install.meta/1706109892-13916.xpm" \
+    "${pkgdir}/${_unshortcutname}.xpm"
 
   # Install license file
   # install -d -m755 "${pkgdir}/usr/share/licenses/${pkgname}"
@@ -152,5 +185,8 @@ package() {
   # fi
 
   find . -type f -follow -print > ${pkgdir}/file.txt
+
+  cp ${srcdir}/*.desktop "${pkgdir}/"
 }
-# vim:set ts=2 sw=2 et:
+
+# vim:set sts=2 sw=2 ts=2 et:

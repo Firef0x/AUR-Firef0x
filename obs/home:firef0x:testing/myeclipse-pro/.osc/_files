@@ -1,9 +1,6 @@
-<directory name="myeclipse-pro" rev="1" srcmd5="0127f554af7b5efc7ab175b9f5967b7d" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="397b20dee3b9ea8626540250014e5251" />
-  <entry md5="542c28af400bbcfe444321510a43ba8e" mtime="1415631487" name="MyEclipse_Professional.desktop" size="878" />
-  <entry md5="4c5637232ec85b8561ac3aad3cd653d3" mtime="1418146070" name="PKGBUILD" size="5542" />
-  <entry md5="f117033b82a51f14c4b5c3fa4fd73800" mtime="1411496067" name="_service" size="294" />
-  <entry md5="0b6211b511da48346cecdc1d2f963c76" mtime="1411496068" name="myeclipse-pro.install" size="117" />
-  <entry md5="b38e37af50376b1a3462cb0801289bb2" mtime="1411496069" name="myeclipse.sh" size="115" />
+<directory name="myeclipse-pro" rev="13" srcmd5="2da7039cb2717e150ced8fd2881d69dd" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="26b2b1ca89aa5dd7cd06404ac1cd5e31" />
+  <entry md5="fdf00e518ed5bfae358d9ed2babd9f3f" mtime="1422368232" name="PKGBUILD" size="7002" />
+  <entry md5="24beb6c66e92efe49e9fa8c8e07150cb" mtime="1422295669" name="_service" size="295" />
   <entry md5="9433ef5fc08bc80966eda4267f13af05" mtime="1411496071" name="response" size="165" />
 </directory>
