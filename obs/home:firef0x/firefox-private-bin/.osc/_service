@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="host">downloads.sourceforge.net</param>
     <param name="protocol">http</param>
-    <param name="path">/project/libportable/Firefox/x86_64/35.x/firefox-private-35.0.zh-CN.linux-x86_64.tar.bz2</param>
+    <param name="path">/project/libportable/Firefox/x86_64/35.x/firefox-private-35.0.1.zh-CN.linux-x86_64.tar.bz2</param>
   </service>
 </services>
