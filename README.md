@@ -59,10 +59,10 @@ Short URL of this repository is [http://git.io/au][2].
   *  Description: A cross-platform popular text, HTML and source code editor
   *  描述: 一个跨平台流行的文本、HTML与源代码编辑器
   *  Version: 3 Build 3065
-*  [MyEclipse Professional][15]
+*  [MyEclipse][15]
   *  `yaourt -S myeclipse-pro`
   *  [Official Page][16]
-  *  Version: 2013 SR2
+  *  Version: 2015 Stable 1.0
 *  [MyEclipse for Spring][17]
   *  `yaourt -S myeclipse-spring`
   *  [Official Page][16]
@@ -99,7 +99,7 @@ Short URL of this repository is [http://git.io/au][2].
 [13]: https://aur.archlinux.org/pkgbase/sublime-text-dev-imfix/
 [14]: http://www.sublimetext.com/3
 [15]: https://aur.archlinux.org/packages/myeclipse-pro/
-[16]: http://www.myeclipseide.com/
+[16]: https://www.genuitec.com/products/myeclipse/
 [17]: https://aur.archlinux.org/packages/myeclipse-spring/
 [18]: https://aur.archlinux.org/packages/vim-pkgbuild/
 [19]: https://github.com/Firef0x/PKGBUILD.vim
