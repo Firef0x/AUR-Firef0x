@@ -1,9 +1,9 @@
-<directory name="myeclipse-pro" rev="17" srcmd5="364e8bc6d6e4c4a94602088bc8a440b6" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="af28d4ee9e829c7297925e4837c36d64" />
-  <entry md5="fac082e9b48f5290626fdafd18737a1d" mtime="1422346569" name="MyEclipse_2015.desktop" size="556" />
-  <entry md5="79c696c1abd4695f43b290abfad9c4c3" mtime="1422644412" name="PKGBUILD" size="7469" />
+<directory name="myeclipse-pro" rev="22" srcmd5="777d450417a7b9a59437aae4f7daa191" vrev="22">
+  <serviceinfo code="succeeded" xsrcmd5="96382ed85d85d25252e65db8257a78dd" />
+  <entry md5="3b5490bb73b6a1c68f34eca483e94d6c" mtime="1422988823" name="MyEclipse_2015.desktop" size="727" />
+  <entry md5="f4857c0387f5492a3855f8c85858b927" mtime="1423037691" name="PKGBUILD" size="7471" />
   <entry md5="1043c3bcd45d1328c09388404eaf358e" mtime="1422637478" name="README.md" size="3711" />
-  <entry md5="9eb952fbd95615ce8242c0b5b41708e6" mtime="1422346574" name="Uninstall_MyEclipse_2015.desktop" size="379" />
+  <entry md5="bf32bd5d3752e0a50e133e4aecd5c828" mtime="1422988828" name="Uninstall_MyEclipse_2015.desktop" size="462" />
   <entry md5="24beb6c66e92efe49e9fa8c8e07150cb" mtime="1422295669" name="_service" size="295" />
   <entry md5="6cec99acef16e5a5b1c6e359dc393245" mtime="1422336846" name="myeclipse.sh" size="89" />
   <entry md5="4c87c416f37f62cb5191441532d9dfe2" mtime="1422378384" name="org.eclipse.equinox.p2.artifact.repository.prefs" size="1381" />
