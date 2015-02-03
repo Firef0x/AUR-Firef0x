@@ -2,11 +2,11 @@
   <service name="download_url">
     <param name="host">download.ime.sogou.com</param>
     <param name="protocol">http</param>
-    <param name="path">/1408440412/sogou_pinyin_linux_1.1.0.0037_i386.deb</param>
+    <param name="path">/1422868314/sogoupinyin_1.2.0.0042_i386.deb</param>
   </service>
   <service name="download_url">
     <param name="host">download.ime.sogou.com</param>
     <param name="protocol">http</param>
-    <param name="path">/1408440412/sogou_pinyin_linux_1.1.0.0037_amd64.deb</param>
+    <param name="path">/1422868314/sogoupinyin_1.2.0.0042_amd64.deb</param>
   </service>
 </services>
