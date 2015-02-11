@@ -1,6 +1,6 @@
-<directory name="anything-sync-daemon" rev="5" srcmd5="1b5d1cc2b5e6564ecdb5d0fc82b53e11" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="df1ed3123b84f6519a28c08dc34c6785" />
-  <entry md5="43e0c68ba8eafc49ebd223f4e89826b1" mtime="1422641257" name="PKGBUILD" size="872" />
-  <entry md5="7e1854b459bda98df3df1507c776971a" mtime="1422641258" name="_service" size="246" />
-  <entry md5="3476d460c77813b7a2c1c1dc98d655b6" mtime="1411791310" name="asd.install" size="2007" />
+<directory name="anything-sync-daemon" rev="6" srcmd5="84b539837c75216f52ce1ed7ba1c5dda" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="e7d972c1c9abdf0af5dc0b48b538e702" />
+  <entry md5="11f66d20c5614f0394182833f46ee1f4" mtime="1423679087" name="PKGBUILD" size="870" />
+  <entry md5="44a48e92bb9dcbec220cb3cd75e78b0f" mtime="1423679088" name="_service" size="244" />
+  <entry md5="93f3d52092ffb1e60534a64171bedf78" mtime="1423679089" name="asd.install" size="2007" />
 </directory>
