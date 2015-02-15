@@ -12,26 +12,51 @@
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/i686/libsublime-imfix.i686.so</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/i686/libsublime-imfix.i686.so</param>
   </service>
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/x86_64/libsublime-imfix.x86_64.so</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/x86_64/libsublime-imfix.x86_64.so</param>
   </service>
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/i686/sublime_text.i686</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/i686/sublime_text.i686</param>
   </service>
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/x86_64/sublime_text.x86_64</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/x86_64/sublime_text.x86_64</param>
   </service>
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/Firef0x/SublimeText-zh-CN/master/dist/any/Default.sublime-package</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/zh_CN/Default.zh_CN.sublime-package</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/zh_TW/Default.zh_TW.sublime-package</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/desktop/sublime_text_3.desktop</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/desktop/sublime_text_3_imfix.desktop</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/zh_CN/LICENSE.zh_CN</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/Firef0x/SublimeText-i18n-zh/master/dist/any/zh_TW/LICENSE.zh_TW</param>
   </service>
 </services>

@@ -1,13 +1,10 @@
-<directory name="sublime-text-dev-imfix" rev="7" srcmd5="4820a630e8e0cb7d4ab5cdb1685532f3" vrev="7">
-  <serviceinfo code="succeeded" xsrcmd5="89a263ae048a39db7c3618c8ea4c821f" />
+<directory name="sublime-text-dev-imfix" rev="12" srcmd5="5839ed512b1de640332ee1711dc85067" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="70267deb4de880c07149a51d5bf719bd" />
   <entry md5="ee96c697ef707e92077d0c55ec14922a" mtime="1411491604" name="LICENSE" size="329" />
-  <entry md5="f7e48316f800b0e1e0153111b1c80302" mtime="1418498374" name="LICENSE.translation" size="1263" />
-  <entry md5="1089ebd91874f835e70e9e2e49a9aaf9" mtime="1418912611" name="PKGBUILD" size="4265" />
-  <entry md5="f440f494d326379506ba89e5d00fbcb6" mtime="1418610116" name="README.md" size="6047" />
-  <entry md5="50493dde66aaf24edb2c54354b94e857" mtime="1418789956" name="_service" size="1658" />
-  <entry md5="5ac1509ebee5509261f5d081e0e02297" mtime="1418610117" name="sublime_text_3.desktop" size="915" />
+  <entry md5="a9fa1132433c8bac6631e5d2c74a56f9" mtime="1423770313" name="PKGBUILD" size="7213" />
+  <entry md5="96f177a93cc16b08888b2c965a20ca15" mtime="1424019648" name="README.md" size="7969" />
+  <entry md5="7391472f03d489c42541538a63051b18" mtime="1423769202" name="_service" size="2919" />
   <entry md5="fa22069242e91e9a7a9dc4023ebf9bf5" mtime="1418498382" name="sublime_text_3.sh" size="519" />
-  <entry md5="b5bacba8ee2573688361d1cc25e2f74d" mtime="1418610119" name="sublime_text_3_imfix.desktop" size="957" />
-  <entry md5="378583cbe18da02622fa6445350a0d76" mtime="1418610121" name="sublime_text_3_imfix.install" size="2556" />
+  <entry md5="1f33da77f44d799569850a7ba5d3a996" mtime="1423768922" name="sublime_text_3_imfix.install" size="3657" />
   <entry md5="7be7d93a1062a9975f34661d66b72ff0" mtime="1418498386" name="sublime_text_3_imfix.sh" size="606" />
 </directory>
