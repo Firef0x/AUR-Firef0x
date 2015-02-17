@@ -1,5 +1,5 @@
-<directory name="rar" rev="3" srcmd5="5a3b6ae1969e6a3aa58f9cf0699d5d8d" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="b617a746f46168a4f6fa380769a60f9f" />
-  <entry md5="052f97c858d6254f76041109301ea0d9" mtime="1423245139" name="PKGBUILD" size="998" />
-  <entry md5="3fdf6c78c5891e519fad0f51a4e2598f" mtime="1417592548" name="_service" size="405" />
+<directory name="rar" rev="4" srcmd5="fc0cdff4f1fa8d431f65479d5121f4e1" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="40132e059bec223662ca290bce0747f1" />
+  <entry md5="ed91a6364b0534c4616bf1346be42990" mtime="1424195120" name="PKGBUILD" size="998" />
+  <entry md5="1db2aa38b4a445c3976660905e066073" mtime="1424195122" name="_service" size="405" />
 </directory>
