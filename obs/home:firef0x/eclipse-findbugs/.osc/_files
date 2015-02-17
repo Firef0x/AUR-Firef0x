@@ -1,5 +1,5 @@
-<directory name="eclipse-findbugs" rev="1" srcmd5="1571ff969b44ce9f00e0698604ac058d" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="69cc7380890b7723989eb2a58a1dab08" />
-  <entry md5="e37dab544d5fa2d955986eac1e3de4fd" mtime="1411791761" name="PKGBUILD" size="841" />
-  <entry md5="d29e4c27996ca840f9b0068bfac94788" mtime="1411791762" name="_service" size="308" />
+<directory name="eclipse-findbugs" rev="3" srcmd5="fbd530d188b1c53b03505334508b7829" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="d076f1ef3f61dcaa559800413093b1ab" />
+  <entry md5="3b97aefb594bd9d46f0e4677c1b985f7" mtime="1424195817" name="PKGBUILD" size="911" />
+  <entry md5="c274ced47594ddbe6f90a0d48199e201" mtime="1424195819" name="_service" size="310" />
 </directory>
