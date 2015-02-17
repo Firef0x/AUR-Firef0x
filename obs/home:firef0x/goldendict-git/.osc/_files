@@ -1,5 +1,5 @@
-<directory name="goldendict-git" rev="13" srcmd5="b44ea34088f16b82f365ba4dfdb12b08" vrev="13">
-  <serviceinfo code="succeeded" xsrcmd5="528ac3c91df90813b884e7b5b6cea523" />
+<directory name="goldendict-git" rev="14" srcmd5="165f295ec322fb67801b3bcc2ce45a6b" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="de7e6e38a6f06d1e5049b7197f4e7753" />
   <entry md5="c8b77eb805cacd45507335f4bc5d35ca" mtime="1416910536" name="PKGBUILD" size="1071" />
-  <entry md5="5bb34740dc66dcaaaa8f0e5ea2dfca10" mtime="1422037774" name="_service" size="460" />
+  <entry md5="129946b81f0ed407b29e31869ad6d493" mtime="1424198985" name="_service" size="460" />
 </directory>
