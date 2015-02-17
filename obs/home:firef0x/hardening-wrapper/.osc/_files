@@ -1,0 +1,8 @@
+<directory name="hardening-wrapper" rev="1" srcmd5="2a02c971f70bbe0480aac14c2da33018" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="93e6872095a0bc5537b5f1e422688db9" />
+  <entry md5="7c4022f24d48700044deabd8b3f747e1" mtime="1422548736" name="PKGBUILD" size="1042" />
+  <entry md5="fdf93190fa28a0cbf6e644143a742ed8" mtime="1424198424" name="_service" size="226" />
+  <entry md5="4b5c25f19d8bb685578a17dc6b267545" mtime="1423732882" name="hardening-wrapper-i686.conf" size="126" />
+  <entry md5="6d54d3ca8fd4968dee3ca5625d28f2d4" mtime="1423732893" name="hardening-wrapper-x86_64.conf" size="126" />
+  <entry md5="9ba7706ecab296df22f13f4cb5cb32fb" mtime="1408449568" name="path.sh" size="51" />
+</directory>

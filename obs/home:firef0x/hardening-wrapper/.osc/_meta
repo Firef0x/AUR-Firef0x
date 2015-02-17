@@ -1,0 +1,8 @@
+<package name="hardening-wrapper" project="home:firef0x">
+  <title>hardening-wrapper</title>
+  <description>Wrapper scripts for building hardened executables by default.</description>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

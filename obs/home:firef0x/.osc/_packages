@@ -44,4 +44,5 @@
   <package name="burg-themes" state=" " />
   <package name="zoom-git" state=" " />
   <package name="zsh-completion-osc" state=" " />
+  <package name="hardening-wrapper" state=" " />
 </project>
